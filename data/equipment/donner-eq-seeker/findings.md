@@ -115,7 +115,7 @@ Consequences:
 - The Seeker's boosts are linear up to at least −17dBFS return. No pedal-internal
   compression was observed.
 - The model is fitted to ladder rungs 0–2 only (sent at −70/−60/−50dBFS).
-- **The single-level Level +5 capture (SEEK18) is unusable**: it returned at
+- **The capture at Level +5 (SEEK18), sent at a single level, is unusable**: it returned at
   −5.4dBFS peak and reads +6.6dB at 31Hz falling to +2.1 at 8kHz, which is
   distortion, not a tilt. Only Level −5 (SEEK19) is a clean measurement.
 - The same limit applies to every pedal measured through this loop. See
