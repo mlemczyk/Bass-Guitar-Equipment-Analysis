@@ -6,7 +6,7 @@ ZEDi-10 interface. Use it as a **benchmark**. If you own the same pedal,
 compare your measurements against these. If you are modelling one, start from
 these parameters, and check your model against the per-take curves.
 
-Released into the public domain (`UNLICENSE`). No attribution is required.
+Released into the public domain (the Unlicense, `LICENSE`). No attribution is required.
 
 ## Read in this order
 

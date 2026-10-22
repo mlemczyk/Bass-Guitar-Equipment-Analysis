@@ -22,4 +22,4 @@ benchmark data. **Start with [`CLAUDE.md`](CLAUDE.md)**.
 
 Analysis code needs Python 3.10+ with numpy, scipy and soundfile.
 
-Public domain ([Unlicense](UNLICENSE)).
+Public domain ([Unlicense](LICENSE)).
