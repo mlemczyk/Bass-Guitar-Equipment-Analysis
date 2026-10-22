@@ -20,6 +20,16 @@ benchmark data. **Start with [`CLAUDE.md`](CLAUDE.md)**.
 | [Yamaha TRBX305](data/equipment/instrument-trbx305/) — the bass | string decay dataset, findings |
 | [The re-amp loop](interface/) | round trip, noise, headroom, drift, Y-split |
 
+## The pedals
+
+The measured units themselves. The knob positions in these photos are
+incidental: each take's setting is in its `measurements/` JSON.
+
+| | | |
+|:---:|:---:|:---:|
+| <img src="images/joyo-r22-tidal-wave.jpg" width="300" alt="Joyo R-22 Tidal Wave"><br>Joyo R-22 Tidal Wave | <img src="images/ehx-deluxe-bass-big-muff.jpg" width="300" alt="EHX Deluxe Bass Big Muff Pi"><br>EHX Deluxe Bass Big Muff | <img src="images/joyo-r26-monomyth.jpg" width="300" alt="Joyo R-26 Monomyth"><br>Joyo R-26 Monomyth |
+| <img src="images/boss-bc1x.jpg" width="160" alt="Boss BC-1X Bass Comp"><br>Boss BC-1X | <img src="images/behringer-nr300.jpg" width="160" alt="Behringer NR300 Noise Reducer"><br>Behringer NR300 | |
+
 Analysis code needs Python 3.10+ with numpy, scipy and soundfile.
 
 Public domain ([Unlicense](LICENSE)).
