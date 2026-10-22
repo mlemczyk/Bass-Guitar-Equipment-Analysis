@@ -90,7 +90,7 @@ Commits it helped write carry a `Co-Authored-By: Claude` line, and
 Part of one personal project: recording bass covers along to Guitar Pro tabs,
 scoring them, and matching my rig's tone to the original recordings.
 
-- [Recording Footswitch](https://github.com/mlemczyk/footswitch): the
+- [Recording Footswitch](https://github.com/mlemczyk/Recording-Footswitch): the
   four-button USB footswitch that starts, stops and discards takes hands-free.
 - [Guitar Pro Utilities](https://github.com/mlemczyk/Guitar-Pro-Utilities):
   Python tools for the tabs: parsing, syncing backing tracks, embedding audio,
