@@ -1,0 +1,91 @@
+{
+ "schema": "rig-equipment/model-params@1",
+ "equipment": "joyo-r22-tidal-wave",
+ "model": "wiener_hammerstein",
+ "fitted_on": "TW29, TW09, TW30, TW31, TW32: the Drive sweep at Blend max (fully wet), ess_ladder sent at -23dBFS, against the digital probe",
+ "fitted": "2026-09-30, source project tw_two_path_fit.py (single-path form)",
+ "shaper": {
+  "G": 27.523206934452237,
+  "r": 0.7949775113587557,
+  "pp": 11.320966213524963,
+  "pn": 7.65499147989475,
+  "bias": 0.10614982883067357,
+  "leak": 8.729918103792234e-06,
+  "fh": 74.24995506163292,
+  "fl": 20000.0
+ },
+ "drive_taper_db_re_9_00": {
+  "7:00": -5.772742250225127,
+  "9:00": 0.0,
+  "11:00": 6.6412033802092605,
+  "1:00": 12.90757561960808,
+  "max": 29.221515029479917
+ },
+ "blend_1200": {
+  "a": 0.4643040692309593,
+  "b": 0.3204744329800173,
+  "tau": 4.799999999999997,
+  "nmse_db": -22.04634287606308
+ },
+ "source_validation": {
+  "error_definitions": {
+   "abs_rms": "per-rung octave-band response error, dB RMS, one gain offset per take allowed",
+   "dep_rms": "error in the level dependence (each rung minus the quiet rung), dB RMS"
+  },
+  "blend_max_in_sample": {
+   "TW29": {
+    "abs_rms": 1.746,
+    "dep_rms": 1.073
+   },
+   "TW09": {
+    "abs_rms": 1.741,
+    "dep_rms": 1.825
+   },
+   "TW30": {
+    "abs_rms": 2.136,
+    "dep_rms": 2.85
+   },
+   "TW31": {
+    "abs_rms": 2.59,
+    "dep_rms": 3.774
+   },
+   "TW32": {
+    "abs_rms": 3.525,
+    "dep_rms": 5.453
+   }
+  },
+  "held_out_drive": {
+   "TW30": {
+    "abs_rms": 2.166,
+    "dep_rms": 2.838
+   },
+   "TW31": {
+    "abs_rms": 2.634,
+    "dep_rms": 3.805
+   }
+  },
+  "held_out_blend_1200": {
+   "TW03": {
+    "abs_rms": 0.451,
+    "dep_rms": 0.312
+   },
+   "TW02": {
+    "abs_rms": 1.576,
+    "dep_rms": 1.423
+   },
+   "TW04": {
+    "abs_rms": 1.502,
+    "dep_rms": 1.75
+   },
+   "TW05": {
+    "abs_rms": 1.309,
+    "dep_rms": 1.976
+   },
+   "TW06": {
+    "abs_rms": 2.706,
+    "dep_rms": 4.242
+   }
+  },
+  "parallel_clean_path": "refuted: a Drive-independent clean path measures at -46dB on the quiet rungs; the two-path fit degenerates"
+ }
+}

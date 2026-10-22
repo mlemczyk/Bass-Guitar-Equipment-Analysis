@@ -1,0 +1,93 @@
+{
+ "TW29": {
+  "drive": "7:00",
+  "blend": "max",
+  "role": "fitted",
+  "abs_rms_db": 1.35,
+  "per_rung_rms_db": [
+   1.41,
+   1.41,
+   1.4,
+   1.33,
+   1.2
+  ]
+ },
+ "TW09": {
+  "drive": "9:00",
+  "blend": "max",
+  "role": "fitted",
+  "abs_rms_db": 1.4,
+  "per_rung_rms_db": [
+   1.45,
+   1.44,
+   1.42,
+   0.63,
+   1.78
+  ]
+ },
+ "TW30": {
+  "drive": "11:00",
+  "blend": "max",
+  "role": "fitted",
+  "abs_rms_db": 1.64,
+  "per_rung_rms_db": [
+   1.3,
+   1.29,
+   1.06,
+   1.65,
+   2.51
+  ]
+ },
+ "TW32": {
+  "drive": "max",
+  "blend": "max",
+  "role": "fitted",
+  "abs_rms_db": 2.58,
+  "per_rung_rms_db": [
+   0.84,
+   1.88,
+   2.57,
+   3.11,
+   3.58
+  ]
+ },
+ "TW02": {
+  "drive": "9:00",
+  "blend": "12:00",
+  "role": "Blend 12:00 calibration take (a, b, tau fitted here)",
+  "abs_rms_db": 0.3,
+  "per_rung_rms_db": [
+   0.29,
+   0.29,
+   0.29,
+   0.35,
+   0.27
+  ]
+ },
+ "TW03": {
+  "drive": "7:00",
+  "blend": "12:00",
+  "role": "held out (Blend 12:00)",
+  "abs_rms_db": 0.24,
+  "per_rung_rms_db": [
+   0.24,
+   0.25,
+   0.25,
+   0.25,
+   0.23
+  ]
+ },
+ "TW06": {
+  "drive": "max",
+  "blend": "12:00",
+  "role": "held out (Blend 12:00)",
+  "abs_rms_db": 2.39,
+  "per_rung_rms_db": [
+   3.85,
+   1.92,
+   2.2,
+   2.02,
+   1.03
+  ]
+ }
+}

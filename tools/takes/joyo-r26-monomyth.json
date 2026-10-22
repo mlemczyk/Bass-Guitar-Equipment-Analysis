@@ -1,0 +1,304 @@
+{
+ "equipment": "joyo-r26-monomyth",
+ "name": "Joyo R-26 Monomyth",
+ "prefix": "MYTH",
+ "bypass_take": "MYTH01",
+ "settled_take": "MYTH12",
+ "settled": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on",
+ "takes": [
+  {
+   "take_id": "MYTH01",
+   "control": "(bypass reference)",
+   "value": "pedal bypassed entirely",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH02",
+   "control": "(drive stage OFF)",
+   "value": "pedal engaged, DRIVE SWITCH OFF, EQ flat, Level 11",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH03",
+   "control": "EQ: Bass shelf",
+   "value": "+5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH04",
+   "control": "EQ: 250Hz",
+   "value": "+5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH05",
+   "control": "EQ: 500Hz",
+   "value": "+5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH06",
+   "control": "EQ: 1.5kHz",
+   "value": "+5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH07",
+   "control": "EQ: 3kHz",
+   "value": "+5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH08",
+   "control": "EQ: Treble shelf",
+   "value": "+5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH09",
+   "control": "EQ: 250Hz",
+   "value": "-5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH10",
+   "control": "EQ: 1.5kHz",
+   "value": "-5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH11",
+   "control": "EQ: combination",
+   "value": "250Hz -5 and 1.5kHz -5 together, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH12",
+   "control": "(settled, drive ON)",
+   "value": "Drive 12, Voice 12, Blend 9, Level 11, EQ flat, Bite/Growl off",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH13",
+   "control": "Blend",
+   "value": "min (dry)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH14",
+   "control": "Blend",
+   "value": "12:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH15",
+   "control": "Blend",
+   "value": "max (wet)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH16",
+   "control": "Voice",
+   "value": "min (circuit A alone), Drive 12:00",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH17",
+   "control": "Voice",
+   "value": "12:00, Drive 12:00",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MYTH18",
+   "control": "Voice",
+   "value": "max (circuit B alone), Drive 12:00",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH19",
+   "control": "Drive sweep, circuit A",
+   "value": "Drive 7:00, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH20",
+   "control": "Drive sweep, circuit A",
+   "value": "Drive 10:00, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH21",
+   "control": "Drive sweep, circuit A",
+   "value": "Drive 2:00, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH22",
+   "control": "Drive sweep, circuit A",
+   "value": "Drive max, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH23",
+   "control": "Drive sweep, circuit B",
+   "value": "Drive 7:00, Voice max",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH24",
+   "control": "Drive sweep, circuit B",
+   "value": "Drive 10:00, Voice max",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH25",
+   "control": "Drive sweep, circuit B",
+   "value": "Drive 2:00, Voice max",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH26",
+   "control": "Drive sweep, circuit B",
+   "value": "Drive max, Voice max",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH27",
+   "control": "Pre-drive switches",
+   "value": "Bite on, Drive 12:00 (settled), Voice 12:00",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH28",
+   "control": "Pre-drive switches",
+   "value": "Growl on, Drive 12:00 (settled), Voice 12:00",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH29",
+   "control": "Pre-drive switches",
+   "value": "Bite + Growl on, Drive 12:00 (settled), Voice 12:00",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH30",
+   "control": "Pre-drive switches",
+   "value": "Bite on, Drive max, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH31",
+   "control": "Pre-drive switches",
+   "value": "Growl on, Drive max, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH32",
+   "control": "Pre-drive switches",
+   "value": "Bite + Growl on, Drive max, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH33",
+   "control": "Level",
+   "value": "min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MYTH34",
+   "control": "Level",
+   "value": "max",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MYTH35",
+   "control": "EQ: Bass shelf",
+   "value": "-5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH36",
+   "control": "EQ: 500Hz",
+   "value": "-5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH37",
+   "control": "EQ: 3kHz",
+   "value": "-5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH38",
+   "control": "EQ: Treble shelf",
+   "value": "-5, all other sliders flat, DRIVE OFF",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH39",
+   "control": "Pre-drive switch, DRIVE MIN",
+   "value": "Hi Boost (Bite) ON, Drive min, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH40",
+   "control": "Pre-drive switch, DRIVE MIN",
+   "value": "Gain Boost (Growl) ON, Drive min, Voice min",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH41",
+   "control": "Pre-drive switch, DRIVE OFF",
+   "value": "Hi Boost (Bite) ON, DRIVE STAGE OFF, EQ flat",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MYTH42",
+   "control": "Pre-drive switch, DRIVE OFF",
+   "value": "Gain Boost (Growl) ON, DRIVE STAGE OFF, EQ flat",
+   "held_fixed": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  }
+ ]
+}

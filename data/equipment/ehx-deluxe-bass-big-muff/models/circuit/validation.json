@@ -1,0 +1,336 @@
+{
+ "probe_holdout_from_source": {
+  "error": "ladder RMS dB / odd-harmonic RMS dB, output gain fixed",
+  "fit_takes": "0.66-1.02 / 1.43-1.61",
+  "MUFF08 Sustain 9:00": "1.85 / 0.96",
+  "MUFF09 Sustain 3:00": "1.29 / 2.66",
+  "MUFF12 Tone 9:00": "1.23 / 1.95",
+  "MUFF13 Tone 12:00": "0.87 / 1.43",
+  "MUFF26 Sustain min Tone min": "1.02 / --",
+  "MUFF28 Sustain max Tone min": "1.46 / 1.60"
+ },
+ "music_from_source": {
+  "metric": "model minus capture, dB, per descriptor, on a played-performance re-amp: per-note THD (harmonics 2-8 over the fundamental), share of energy above 400Hz, and four band levels (20-100, 100-250, 400-1000, 1000-2000Hz). *_rms_thd_and_4_bands_db = RMS over THD and the four bands; *_rms_all_6_db adds the energy share.",
+  "polarity_wet_vs_dry": "non-inverting",
+  "rows": [
+   {
+    "music": "MUFF02",
+    "label": "settled, Blend 12:00",
+    "legacy": {
+     "thd_h2_h8_per_note_db": -2.032805342727072,
+     "energy_above_400hz_share_db": -3.777868561714422,
+     "sub_low_20_100": 2.91,
+     "low_mid_100_250": 0.5,
+     "mid_400_1000": -1.4600000000000009,
+     "upper_mid_1000_2000": -1.3100000000000023
+    },
+    "circuit": {
+     "thd_h2_h8_per_note_db": -1.0271035941965818,
+     "energy_above_400hz_share_db": -0.8117495030748771,
+     "sub_low_20_100": 1.1500000000000004,
+     "low_mid_100_250": 0.120000000000001,
+     "mid_400_1000": -0.07000000000000028,
+     "upper_mid_1000_2000": 0.759999999999998
+    },
+    "legacy_rms_thd_and_4_bands_db": 1.7724136086139721,
+    "circuit_rms_thd_and_4_bands_db": 0.6927120613934765,
+    "legacy_rms_all_6_db": 2.2719444106686066,
+    "circuit_rms_all_6_db": 0.7781686887551914
+   },
+   {
+    "music": "MUFF16",
+    "label": "Tone max, Blend MAX",
+    "legacy": {
+     "thd_h2_h8_per_note_db": -3.5016511871762197,
+     "energy_above_400hz_share_db": 3.4048646673097362,
+     "sub_low_20_100": 1.3499999999999996,
+     "low_mid_100_250": 1.3200000000000003,
+     "mid_400_1000": 4.969999999999999,
+     "upper_mid_1000_2000": 5.059999999999999
+    },
+    "circuit": {
+     "thd_h2_h8_per_note_db": -1.9519439476154623,
+     "energy_above_400hz_share_db": -1.9054730945751819,
+     "sub_low_20_100": 1.54,
+     "low_mid_100_250": 0.20000000000000107,
+     "mid_400_1000": -0.40000000000000213,
+     "upper_mid_1000_2000": -1.4600000000000009
+    },
+    "legacy_rms_thd_and_4_bands_db": 3.6697888222621193,
+    "circuit_rms_thd_and_4_bands_db": 1.0843431191278898,
+    "legacy_rms_all_6_db": 3.599168062190364,
+    "circuit_rms_all_6_db": 1.422680151965681
+   },
+   {
+    "music": "MUFF11",
+    "label": "Tone min, Blend MAX",
+    "legacy": {
+     "thd_h2_h8_per_note_db": -1.2821901020300797,
+     "energy_above_400hz_share_db": 3.1169090779973962,
+     "sub_low_20_100": 0.9100000000000001,
+     "low_mid_100_250": 0.7400000000000002,
+     "mid_400_1000": 4.0,
+     "upper_mid_1000_2000": 4.539999999999999
+    },
+    "circuit": {
+     "thd_h2_h8_per_note_db": -0.5283600848496888,
+     "energy_above_400hz_share_db": -2.3358072479959384,
+     "sub_low_20_100": 1.2300000000000004,
+     "low_mid_100_250": -0.4399999999999995,
+     "mid_400_1000": -1.4899999999999984,
+     "upper_mid_1000_2000": -1.9600000000000009
+    },
+    "legacy_rms_thd_and_4_bands_db": 3.08169190543117,
+    "circuit_rms_thd_and_4_bands_db": 1.393574540525192,
+    "legacy_rms_all_6_db": 2.8678224508689074,
+    "circuit_rms_all_6_db": 1.5001866483348403
+   }
+  ]
+ },
+ "legacy_comparison": "the earlier Wiener-Hammerstein model scored 1.77 / 3.67 / 3.08 on the same three music captures",
+ "port_check_levels_probe": {
+  "MUFF16": {
+   "sustain": "12:00",
+   "tone": "max",
+   "role": "fitted",
+   "fundamental_err_db": [
+    0.12,
+    -0.01,
+    -0.17,
+    -0.02,
+    0.41,
+    0.5,
+    0.22,
+    -0.22
+   ],
+   "h3_err_db": [
+    -0.3,
+    0.7,
+    0.8,
+    1.2,
+    1.2,
+    -0.5,
+    -2.7,
+    -3.8
+   ],
+   "fundamental_rms_db": 0.26,
+   "h3_rms_db": 1.81
+  },
+  "MUFF07": {
+   "sustain": "min",
+   "tone": "max",
+   "role": "fitted",
+   "fundamental_err_db": [
+    0.19,
+    0.21,
+    0.32,
+    0.44,
+    0.23,
+    -0.12,
+    -0.74,
+    -1.33
+   ],
+   "h3_err_db": [
+    -5.2,
+    -5.5,
+    -3.5,
+    -0.4,
+    0.9,
+    0.7,
+    -0.8,
+    -0.3
+   ],
+   "fundamental_rms_db": 0.59,
+   "h3_rms_db": 2.99
+  },
+  "MUFF10": {
+   "sustain": "max",
+   "tone": "max",
+   "role": "fitted",
+   "fundamental_err_db": [
+    0.63,
+    1.06,
+    1.15,
+    1.04,
+    1.06,
+    1.37,
+    0.64,
+    -0.5
+   ],
+   "h3_err_db": [
+    0.7,
+    0.1,
+    0.6,
+    0.2,
+    -0.6,
+    -1.3,
+    -0.1,
+    1.6
+   ],
+   "fundamental_rms_db": 0.97,
+   "h3_rms_db": 0.83
+  },
+  "MUFF11": {
+   "sustain": "12:00",
+   "tone": "min",
+   "role": "fitted",
+   "fundamental_err_db": [
+    -0.26,
+    -0.39,
+    -0.53,
+    -0.33,
+    0.44,
+    1.19,
+    1.35,
+    1.25
+   ],
+   "h3_err_db": [
+    -0.1,
+    0.7,
+    0.7,
+    0.9,
+    -0.9,
+    -3.8,
+    -5.3,
+    -5.7
+   ],
+   "fundamental_rms_db": 0.84,
+   "h3_rms_db": 3.12
+  },
+  "MUFF08": {
+   "sustain": "9:00",
+   "tone": "max",
+   "role": "held out",
+   "fundamental_err_db": [
+    -0.2,
+    0.04,
+    0.1,
+    -0.09,
+    -0.2,
+    -0.02,
+    -0.41,
+    -0.92
+   ],
+   "h3_err_db": [
+    -5.3,
+    -2.4,
+    0.3,
+    0.7,
+    0.9,
+    1.2,
+    1.8,
+    2.3
+   ],
+   "fundamental_rms_db": 0.37,
+   "h3_rms_db": 2.38
+  },
+  "MUFF09": {
+   "sustain": "3:00",
+   "tone": "max",
+   "role": "held out",
+   "fundamental_err_db": [
+    -1.06,
+    -1.08,
+    -0.76,
+    -0.31,
+    -0.17,
+    -0.39,
+    -0.95,
+    -1.83
+   ],
+   "h3_err_db": [
+    -0.1,
+    1.4,
+    2.9,
+    0.3,
+    -1.9,
+    -1.2,
+    -1.4,
+    -1.7
+   ],
+   "fundamental_rms_db": 0.96,
+   "h3_rms_db": 1.6
+  },
+  "MUFF12": {
+   "sustain": "12:00",
+   "tone": "9:00",
+   "role": "held out",
+   "fundamental_err_db": [
+    -0.99,
+    -1.16,
+    -1.32,
+    -1.14,
+    -0.6,
+    -0.17,
+    -0.13,
+    -0.28
+   ],
+   "h3_err_db": [
+    0.0,
+    0.8,
+    0.8,
+    1.1,
+    0.4,
+    -2.4,
+    -4.5,
+    -5.5
+   ],
+   "fundamental_rms_db": 0.86,
+   "h3_rms_db": 2.71
+  },
+  "MUFF13": {
+   "sustain": "12:00",
+   "tone": "12:00",
+   "role": "held out",
+   "fundamental_err_db": [
+    -0.09,
+    -0.34,
+    -0.52,
+    -0.38,
+    0.07,
+    0.18,
+    -0.09,
+    -0.52
+   ],
+   "h3_err_db": [
+    0.4,
+    1.0,
+    0.9,
+    1.1,
+    0.9,
+    -0.4,
+    -2.6,
+    -3.6
+   ],
+   "fundamental_rms_db": 0.33,
+   "h3_rms_db": 1.73
+  },
+  "MUFF28": {
+   "sustain": "max",
+   "tone": "min",
+   "role": "held out",
+   "fundamental_err_db": [
+    0.21,
+    0.81,
+    1.46,
+    1.98,
+    2.58,
+    2.81,
+    2.83,
+    2.85
+   ],
+   "h3_err_db": [
+    0.5,
+    -0.8,
+    -2.7,
+    -2.8,
+    -2.8,
+    -9.0,
+    7.3,
+    5.7
+   ],
+   "fundamental_rms_db": 2.16,
+   "h3_rms_db": 4.88
+  }
+ }
+}

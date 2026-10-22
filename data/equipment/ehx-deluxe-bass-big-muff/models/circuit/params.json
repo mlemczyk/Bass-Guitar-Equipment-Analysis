@@ -1,0 +1,35 @@
+{
+ "schema": "rig-equipment/model-params@1",
+ "equipment": "ehx-deluxe-bass-big-muff",
+ "model": "circuit",
+ "fitted": "2026-10-18, source project muff_circuit_fit.py (CMA-ES, 48 generations, popsize 10)",
+ "fitted_on": "MUFF16 (settled Tone/Sustain), MUFF07 (Sustain min), MUFF10 (Sustain max), MUFF11 (Tone min), all at Blend max; input = the MUFF14 (Blend min) capture",
+ "theta": {
+  "log10_k_in": -0.025520871687534363,
+  "cap_coupling": 0.4461312438874141,
+  "cap_miller": -0.028646038602327284,
+  "cap_clip": 0.05113172997017035,
+  "cap_tone_treble": -0.3450902614276177,
+  "cap_tone_bass": -1.0622746551540623,
+  "sustain_mid": 0.12188551209806697,
+  "log10_beta": 2.7409947032715873,
+  "diode_n": 2.0377375810212324
+ },
+ "out_gain_db": -18.43114417524762,
+ "probe_fit_loss_db": 2.089389125963121,
+ "theta_notes": {
+  "log10_k_in": "volts at the core input per digital unit",
+  "cap_*": "log2 scale on the Black Russian values (coupling C1/C3/C4/C7/C12/C13, miller C2/C5/C8, clip C6/C9, tone_treble C10 3n9, tone_bass C11 10n)",
+  "sustain_mid": "Sustain pot fraction at half rotation",
+  "log10_beta": "transistor current gain",
+  "diode_n": "clipping diode emission coefficient"
+ },
+ "unfitted_textbook_loss_db": 2.87,
+ "blend_wet_fraction": {
+  "min": 0.0,
+  "9:00": 0.05,
+  "12:00": 0.445,
+  "3:00": 0.875,
+  "max": 1.0
+ }
+}

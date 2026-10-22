@@ -1,0 +1,9 @@
+# Captures live outside git; see audio_manifest.json. The probe WAVs in
+# stimuli/ are the exception.
+*.wav
+*.mp3
+*.flac
+!stimuli/*.wav
+
+__pycache__/
+*.pyc

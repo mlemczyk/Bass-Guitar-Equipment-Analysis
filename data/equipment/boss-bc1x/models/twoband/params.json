@@ -1,0 +1,71 @@
+{
+ "schema": "rig-equipment/model-params@1",
+ "equipment": "boss-bc1x",
+ "model": "twoband",
+ "setting": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00 (BC01)",
+ "fitted_on": "static curves + crossover: BC01 vs BC15 ess_ladder; dynamics: BC01 vs BC15 played performance (music)",
+ "fitted": "2026-09-30, source project bc1x_twoband.py",
+ "params": {
+  "crossovers_hz": [
+   310.7232505953858
+  ],
+  "split_order": 4,
+  "detector_order": 4,
+  "detector": "hybrid",
+  "bands": [
+   {
+    "thresh": -38.84627141792604,
+    "ratio": 2.8121315913164064,
+    "knee": 14.516400837562259,
+    "makeup": 7.448945920160819
+   },
+   {
+    "thresh": -48.9445967325895,
+    "ratio": 2.858582537756873,
+    "knee": 15.536436115555802,
+    "makeup": 7.761466996671229
+   }
+  ],
+  "dynamics": [
+   {
+    "detector_ms": 59.51339623246006,
+    "attack_ms": 1.032252936626886,
+    "release_ms": 5.10160080679586
+   },
+   {
+    "detector_ms": 3.0603436620726114,
+    "attack_ms": 1.0254759127076114,
+    "release_ms": 380.55637416023643
+   }
+  ],
+  "peak_ms": 3.7658294824501697,
+  "peak_offset_db": 0.0
+ },
+ "source_fit_report": {
+  "ladder_rms_db": {
+   "one": 2.5007222735789507,
+   "two": 0.9146259196287798,
+   "three": 0.639882506720174
+  },
+  "three_band_crossovers_hz": [
+   277.4191114672182,
+   547.7225575051663
+  ],
+  "music_env_rms_db": 1.8468079858541053,
+  "plucks_env_rms_db": 1.1412962806131668,
+  "crest_err_db": {
+   "music": 0.9601894450513555,
+   "plucks": 0.13526761441186608
+  },
+  "band_balance_rms_db": {
+   "two_band": 1.4324087748360794,
+   "broadband_fine": 5.579528765178026
+  },
+  "bc07_ladder_rms_db": 1.1769420381245006,
+  "notes": {
+   "ladder_rms_db": "static-curve fit error on the ess_ladder with one, two, three bands",
+   "band_balance_rms_db": "error in the per-band balance on music: two-band vs the broadband model",
+   "bc07_ladder_rms_db": "BC07 (Ratio 3:00) ladder predicted by refitting the ratio only"
+  }
+ }
+}

@@ -1,0 +1,326 @@
+{
+ "fit_band_hz": [
+  40,
+  10000
+ ],
+ "forms": {
+  "ratio": {
+   "in_sample": {
+    "SEEK03": {
+     "rms_db": 0.27,
+     "worst_db": -0.9,
+     "phase_rms_deg": 15.8
+    },
+    "SEEK04": {
+     "rms_db": 0.44,
+     "worst_db": -1.19,
+     "phase_rms_deg": 8.1
+    },
+    "SEEK05": {
+     "rms_db": 0.57,
+     "worst_db": -1.76,
+     "phase_rms_deg": 4.3
+    },
+    "SEEK06": {
+     "rms_db": 0.77,
+     "worst_db": -2.63,
+     "phase_rms_deg": 6.3
+    },
+    "SEEK07": {
+     "rms_db": 0.57,
+     "worst_db": -1.8,
+     "phase_rms_deg": 13.7
+    },
+    "SEEK08": {
+     "rms_db": 0.31,
+     "worst_db": -1.46,
+     "phase_rms_deg": 15.6
+    },
+    "SEEK09": {
+     "rms_db": 0.48,
+     "worst_db": 1.19,
+     "phase_rms_deg": 3.1
+    },
+    "SEEK10": {
+     "rms_db": 0.51,
+     "worst_db": 1.33,
+     "phase_rms_deg": 22.0
+    },
+    "SEEK11": {
+     "rms_db": 0.32,
+     "worst_db": 0.79,
+     "phase_rms_deg": 16.9
+    },
+    "SEEK12": {
+     "rms_db": 0.16,
+     "worst_db": 0.48,
+     "phase_rms_deg": 2.9
+    },
+    "SEEK13": {
+     "rms_db": 0.56,
+     "worst_db": 1.6,
+     "phase_rms_deg": 13.1
+    },
+    "SEEK14": {
+     "rms_db": 0.3,
+     "worst_db": 1.23,
+     "phase_rms_deg": 2.1
+    },
+    "SEEK21": {
+     "rms_db": 0.65,
+     "worst_db": -1.93,
+     "phase_rms_deg": 4.2
+    },
+    "SEEK22": {
+     "rms_db": 0.7,
+     "worst_db": 1.81,
+     "phase_rms_deg": 13.6
+    },
+    "SEEK15": {
+     "rms_db": 1.08,
+     "worst_db": -2.1,
+     "phase_rms_deg": 13.5
+    },
+    "SEEK16": {
+     "rms_db": 0.92,
+     "worst_db": -3.94,
+     "phase_rms_deg": 5.8
+    },
+    "SEEK17": {
+     "rms_db": 1.2,
+     "worst_db": -1.73,
+     "phase_rms_deg": 1.2
+    },
+    "SEEK24": {
+     "rms_db": 0.88,
+     "worst_db": 1.47,
+     "phase_rms_deg": 6.9
+    },
+    "SEEK25": {
+     "rms_db": 0.62,
+     "worst_db": -1.59,
+     "phase_rms_deg": 4.0
+    },
+    "SEEK27": {
+     "rms_db": 1.2,
+     "worst_db": -2.62,
+     "phase_rms_deg": 11.8
+    },
+    "SEEK28": {
+     "rms_db": 0.83,
+     "worst_db": 1.49,
+     "phase_rms_deg": 5.5
+    },
+    "SEEK29": {
+     "rms_db": 0.69,
+     "worst_db": 1.82,
+     "phase_rms_deg": 11.4
+    }
+   },
+   "leave_one_out_combos": {
+    "SEEK15": {
+     "rms_db": 1.29,
+     "worst_db": -2.48,
+     "phase_rms_deg": 12.9
+    },
+    "SEEK16": {
+     "rms_db": 2.28,
+     "worst_db": -9.7,
+     "phase_rms_deg": 13.4
+    },
+    "SEEK17": {
+     "rms_db": 3.29,
+     "worst_db": -3.79,
+     "phase_rms_deg": 1.4
+    },
+    "SEEK24": {
+     "rms_db": 1.2,
+     "worst_db": 2.09,
+     "phase_rms_deg": 7.4
+    },
+    "SEEK25": {
+     "rms_db": 1.29,
+     "worst_db": -3.13,
+     "phase_rms_deg": 6.9
+    },
+    "SEEK27": {
+     "rms_db": 1.49,
+     "worst_db": -3.18,
+     "phase_rms_deg": 12.2
+    },
+    "SEEK28": {
+     "rms_db": 1.03,
+     "worst_db": -1.72,
+     "phase_rms_deg": 6.8
+    },
+    "SEEK29": {
+     "rms_db": 1.12,
+     "worst_db": 2.34,
+     "phase_rms_deg": 11.5
+    }
+   },
+   "in_sample_rms_singles_db": 0.5,
+   "in_sample_rms_combos_db": 0.95,
+   "loo_rms_combos_db": 1.78
+  },
+  "cascade": {
+   "in_sample": {
+    "SEEK03": {
+     "rms_db": 0.27,
+     "worst_db": 0.61,
+     "phase_rms_deg": 16.5
+    },
+    "SEEK04": {
+     "rms_db": 0.37,
+     "worst_db": 0.8,
+     "phase_rms_deg": 8.2
+    },
+    "SEEK05": {
+     "rms_db": 0.77,
+     "worst_db": -2.87,
+     "phase_rms_deg": 5.4
+    },
+    "SEEK06": {
+     "rms_db": 0.84,
+     "worst_db": -3.09,
+     "phase_rms_deg": 6.2
+    },
+    "SEEK07": {
+     "rms_db": 0.65,
+     "worst_db": -2.34,
+     "phase_rms_deg": 13.4
+    },
+    "SEEK08": {
+     "rms_db": 0.29,
+     "worst_db": -1.07,
+     "phase_rms_deg": 14.7
+    },
+    "SEEK09": {
+     "rms_db": 0.72,
+     "worst_db": -2.37,
+     "phase_rms_deg": 5.3
+    },
+    "SEEK10": {
+     "rms_db": 0.34,
+     "worst_db": 0.69,
+     "phase_rms_deg": 23.0
+    },
+    "SEEK11": {
+     "rms_db": 0.35,
+     "worst_db": 0.78,
+     "phase_rms_deg": 18.1
+    },
+    "SEEK12": {
+     "rms_db": 0.23,
+     "worst_db": 0.56,
+     "phase_rms_deg": 5.2
+    },
+    "SEEK13": {
+     "rms_db": 0.76,
+     "worst_db": 2.71,
+     "phase_rms_deg": 13.1
+    },
+    "SEEK14": {
+     "rms_db": 0.24,
+     "worst_db": 0.81,
+     "phase_rms_deg": 1.4
+    },
+    "SEEK21": {
+     "rms_db": 0.35,
+     "worst_db": -0.78,
+     "phase_rms_deg": 2.2
+    },
+    "SEEK22": {
+     "rms_db": 0.44,
+     "worst_db": 0.67,
+     "phase_rms_deg": 13.5
+    },
+    "SEEK15": {
+     "rms_db": 0.93,
+     "worst_db": -1.98,
+     "phase_rms_deg": 12.6
+    },
+    "SEEK16": {
+     "rms_db": 1.19,
+     "worst_db": -4.9,
+     "phase_rms_deg": 7.7
+    },
+    "SEEK17": {
+     "rms_db": 0.72,
+     "worst_db": -1.35,
+     "phase_rms_deg": 3.5
+    },
+    "SEEK24": {
+     "rms_db": 0.73,
+     "worst_db": 1.16,
+     "phase_rms_deg": 6.8
+    },
+    "SEEK25": {
+     "rms_db": 1.02,
+     "worst_db": -1.54,
+     "phase_rms_deg": 6.5
+    },
+    "SEEK27": {
+     "rms_db": 0.97,
+     "worst_db": -2.06,
+     "phase_rms_deg": 10.8
+    },
+    "SEEK28": {
+     "rms_db": 0.54,
+     "worst_db": 1.2,
+     "phase_rms_deg": 3.4
+    },
+    "SEEK29": {
+     "rms_db": 1.0,
+     "worst_db": 2.12,
+     "phase_rms_deg": 11.0
+    }
+   },
+   "leave_one_out_combos": {
+    "SEEK15": {
+     "rms_db": 1.08,
+     "worst_db": -2.28,
+     "phase_rms_deg": 12.3
+    },
+    "SEEK16": {
+     "rms_db": 2.27,
+     "worst_db": -8.11,
+     "phase_rms_deg": 13.4
+    },
+    "SEEK17": {
+     "rms_db": 2.48,
+     "worst_db": -3.06,
+     "phase_rms_deg": 1.8
+    },
+    "SEEK24": {
+     "rms_db": 0.75,
+     "worst_db": 1.21,
+     "phase_rms_deg": 6.6
+    },
+    "SEEK25": {
+     "rms_db": 2.17,
+     "worst_db": -3.89,
+     "phase_rms_deg": 13.5
+    },
+    "SEEK27": {
+     "rms_db": 1.06,
+     "worst_db": -2.25,
+     "phase_rms_deg": 10.8
+    },
+    "SEEK28": {
+     "rms_db": 0.55,
+     "worst_db": 1.21,
+     "phase_rms_deg": 3.5
+    },
+    "SEEK29": {
+     "rms_db": 1.71,
+     "worst_db": 2.85,
+     "phase_rms_deg": 11.2
+    }
+   },
+   "in_sample_rms_singles_db": 0.52,
+   "in_sample_rms_combos_db": 0.91,
+   "loo_rms_combos_db": 1.66
+  }
+ }
+}

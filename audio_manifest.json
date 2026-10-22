@@ -1,0 +1,3005 @@
+{
+ "schema": "rig-equipment/audio-manifest@1",
+ "note": "Captures are not stored in git. Paths are relative to the audio root that the tools/ scripts take as --audio-root.",
+ "hosted_at": null,
+ "files": {
+  "raw_takes/H01_bass_m5.wav": {
+   "sha256": "18bb4a52eb40e37efe0999c6f9da679572a995a59f652f70a760d87fe8dc971a",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H01"
+   ]
+  },
+  "raw_takes/H02_bass_m2.wav": {
+   "sha256": "3d3ce975d449660a7461dd71db54f7d6983e0ad07958d8fae6bc4dd2c4aa5aa6",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H02"
+   ]
+  },
+  "raw_takes/H03_bass_p2.wav": {
+   "sha256": "54fe21d7259f79d012241d88d8ab2f19fa9cb98b49b9cef155b75a18859ef10e",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H03"
+   ]
+  },
+  "raw_takes/H04_bass_p5.wav": {
+   "sha256": "52e95fa796ec897df2ce8bfbaec0e822d6d5d9b69cc23c5226b00fbf39ec82cd",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H04"
+   ]
+  },
+  "raw_takes/H05_treble_m5.wav": {
+   "sha256": "8adfd9f1dec31a5b3c0b617e18dd349a7be0a5ef10372f5ea5a454954aec2fb4",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H05"
+   ]
+  },
+  "raw_takes/H06_treble_m2.wav": {
+   "sha256": "bbe671755c0dea25f03d8b6bf59a818a608a18fc2c42250ce1789e63d35e4274",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H06"
+   ]
+  },
+  "raw_takes/H07_treble_p2.wav": {
+   "sha256": "98ca56bcb29c351cdbaff80b58b184bd80adbcf36650375124518c37d77d4706",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H07"
+   ]
+  },
+  "raw_takes/H08_treble_p5.wav": {
+   "sha256": "cd92e210b768c605ada47117a3ba42e107c30c6486f8ea504505c85582f71d75",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H08"
+   ]
+  },
+  "raw_takes/H09_mid_midfreq_m5_m5_100hz.wav": {
+   "sha256": "c54bd24469b5281eb91a16daabfe5e0800eb8791fbd107e09abfeec19bee79b8",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H09"
+   ]
+  },
+  "raw_takes/H10_mid_midfreq_m5_m2_100hz.wav": {
+   "sha256": "8acf78f2807ced64475d6590703bc982f4d36bc64c3356b328fb9e3007f1fc71",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H10"
+   ]
+  },
+  "raw_takes/H11_mid_midfreq_m5_p2_100hz.wav": {
+   "sha256": "1d090f1076d34ce6442e8ed75232e28b6eda5c032c6c7c0de6bceab3361fb63c",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H11"
+   ]
+  },
+  "raw_takes/H12_mid_midfreq_m5_p5_100hz.wav": {
+   "sha256": "32bf285cafd582e61c06b66d0ad59edbc547788b1030a7c187f6f82ef4018239",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H12"
+   ]
+  },
+  "raw_takes/H13_mid_midfreq_0_m5_300m400hz.wav": {
+   "sha256": "95288645cfa0c9ef6a7b847c540bad8bdebc2ad0e8debd29398efce00c02d2be",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H13"
+   ]
+  },
+  "raw_takes/H14_mid_midfreq_0_m2_300m400hz.wav": {
+   "sha256": "8982f8f9a7e5fcffd90e781818e7eb89a8e2bdb4374e43d482a7b8025de12605",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H14"
+   ]
+  },
+  "raw_takes/H15_mid_midfreq_0_p2_300m400hz.wav": {
+   "sha256": "e2837bca1caca1128b44d9b85e593fa2215a92395e0812cd7b86a5a0b0229370",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H15"
+   ]
+  },
+  "raw_takes/H16_mid_midfreq_0_p5_300m400hz.wav": {
+   "sha256": "7805ee26c63f3020c1b36f696b34cfa1f7cad4062dc2d7bec2933af646755414",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H16"
+   ]
+  },
+  "raw_takes/H17_mid_midfreq_p5_m5_1khz.wav": {
+   "sha256": "e54a72d8fb8e93b728bf055f3f9f9afb441b1fb75fe94134aa975ec5145eca8d",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H17"
+   ]
+  },
+  "raw_takes/H18_mid_midfreq_p5_m2_1khz.wav": {
+   "sha256": "aeaebed9c15237d22a7ef37c71dc0358f7bc3cc976c032d2db87fb6864b6ce1a",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H18"
+   ]
+  },
+  "raw_takes/H19_mid_midfreq_p5_p2_1khz.wav": {
+   "sha256": "72308a01bf7a9e533b1591d8444c383f3bb27617288e871c4af5d85647727d16",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H19"
+   ]
+  },
+  "raw_takes/H20_mid_midfreq_p5_p5_1khz.wav": {
+   "sha256": "a069d55091ffee0433c1c5c2e1186d8ab0aba8f5c75d5e343080194c9ed66121",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H20"
+   ]
+  },
+  "raw_takes/H21_midfreq_taper_fill_midfreq_m2.wav": {
+   "sha256": "4f3b97a6aaa7c00add3704378b474057ab3b54e21a1a768c672321234583aec9",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H21"
+   ]
+  },
+  "raw_takes/H22_midfreq_taper_fill_midfreq_p2.wav": {
+   "sha256": "15c0a0c815cf4be313623c911f4a27e33613754ac8c288b91beaa5badfb46962",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H22"
+   ]
+  },
+  "raw_takes/H99_closing_reference_identical_to.wav": {
+   "sha256": "294d406bddc9975777039bf0b6ec5e001468592b9c917d79768adaed221459cf",
+   "sample_rate": null,
+   "probe": "emg_sweep (magnetic injection)",
+   "publishable": true,
+   "used_by": [
+    "emg-bqc/H99"
+   ]
+  },
+  "reamps/BC01_bursts_lad.wav": {
+   "sha256": "871daeaa2b2ee55f8a79e71d7926ca470252c9e176f731394369aaa736aedd91",
+   "sample_rate": null,
+   "probe": "bursts",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC01"
+   ]
+  },
+  "reamps/BC01_ess_ladder_lad.wav": {
+   "sha256": "a5070c31447dec576cb7e0e9e8d9de6fa51c4b7da42c59ccc4ddf42d36a101d3",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC01"
+   ]
+  },
+  "reamps/BC01_levels_lad.wav": {
+   "sha256": "f15b8c1c26cd36cf3d180827e0707c904e4e98fc5b1d6f5c13ce27ae85faedb4",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC01"
+   ]
+  },
+  "reamps/BC01_music_lad.wav": {
+   "sha256": "02cc1fb43ff1250f67292757a752bc8f1e44157f741df159511c971da04fd0cc",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC01"
+   ]
+  },
+  "reamps/BC01_plucks_lad.wav": {
+   "sha256": "60f0cb00f1c53c64e18d85699085d77fb8890ce723ec9304c9e14d763126b5e0",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC01"
+   ]
+  },
+  "reamps/BC01_twotone_lad.wav": {
+   "sha256": "c816b25b1076c47e047b574ce8cf55b6996bcfe55ab9183c215737b5a401abc6",
+   "sample_rate": null,
+   "probe": "twotone",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC01"
+   ]
+  },
+  "reamps/BC02_music_lad.wav": {
+   "sha256": "003335696a1bd0505f4357e672ef4ff490ec727380b9fd60f47d8face66366bf",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC02"
+   ]
+  },
+  "reamps/BC02_plucks_lad.wav": {
+   "sha256": "ab48e72bd08e623c8aa6bbff0107df2d3dd5b50da8cee2bf5564197ff63ec26f",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC02"
+   ]
+  },
+  "reamps/BC03_music_lad.wav": {
+   "sha256": "c771f10f6efc9d8dfbe60dd6ffd26e69520fb148f64246562ddaabb06a7934cc",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC03"
+   ]
+  },
+  "reamps/BC03_plucks_lad.wav": {
+   "sha256": "fcf391be6f813feb1f1eb553a7d7bc3d10a7363c8625437d32d098f12f566473",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC03"
+   ]
+  },
+  "reamps/BC04_music_lad.wav": {
+   "sha256": "876ffa2620dd4bfed716a9a1ecfae27ba6ba33fd47322352d980c23e4048f035",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC04"
+   ]
+  },
+  "reamps/BC04_plucks_lad.wav": {
+   "sha256": "c94f99841f43f578646096c17921621089888a5697580f3bfe7179fa7b006bdc",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC04"
+   ]
+  },
+  "reamps/BC05_music_lad.wav": {
+   "sha256": "204e90e679fe33b624583e8a28b2a490a337caba10d82f50c6356c8105bc4e63",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC05"
+   ]
+  },
+  "reamps/BC05_plucks_lad.wav": {
+   "sha256": "a0990da654f584d2c1fc13b26b37bb0bf0a6ac2b7f3dff5c2b18fecb810642ab",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC05"
+   ]
+  },
+  "reamps/BC06_music_lad.wav": {
+   "sha256": "8b2802b2093e4e700bc41639d2b3c211723e5b4b732046c066347ee46d69f17b",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC06"
+   ]
+  },
+  "reamps/BC06_plucks_lad.wav": {
+   "sha256": "69776f2c8e1bfea6001f2998905e20e22055926888bc2611f3569de7152a599f",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC06"
+   ]
+  },
+  "reamps/BC07_ess_ladder_lad.wav": {
+   "sha256": "297d0c5242b5ffd9c16257069bcc1f0546c8fa74b00c2e6985672a372fac1a7e",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC07"
+   ]
+  },
+  "reamps/BC08_music_lad.wav": {
+   "sha256": "c15ce6e23400744d1be6cbd7678b23ec32ccec6b4c5a798efa1304fda6513adb",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC08"
+   ]
+  },
+  "reamps/BC08_plucks_lad.wav": {
+   "sha256": "836db7c0921d620e7df062616b41a9c9c88f3a18dac47a37242f29c021728aa3",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC08"
+   ]
+  },
+  "reamps/BC09_bursts_lad.wav": {
+   "sha256": "1ab3245206927ec0f1c120c7c61f051c149c4831489c491958f668c8f8bf53fc",
+   "sample_rate": null,
+   "probe": "bursts",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC09"
+   ]
+  },
+  "reamps/BC09_music_lad.wav": {
+   "sha256": "eebc0a5aad472ee4a60e967143bf7c08c5aac44f0f386267fe965ae1b92ed232",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC09"
+   ]
+  },
+  "reamps/BC09_plucks_lad.wav": {
+   "sha256": "f252f5802134d31e28a87b06049a40cbfe12874f0eda93ac89f8899e5405cd20",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC09"
+   ]
+  },
+  "reamps/BC10_bursts_lad.wav": {
+   "sha256": "fd47102f114299bf23b51759bc75d2a1487db1f0bc5d540558bc388e597d0cb7",
+   "sample_rate": null,
+   "probe": "bursts",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC10"
+   ]
+  },
+  "reamps/BC10_music_lad.wav": {
+   "sha256": "b60526a0037e473133343d747e56fd554016f367c4f12dab6bbdd65d2d78ab34",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC10"
+   ]
+  },
+  "reamps/BC10_plucks_lad.wav": {
+   "sha256": "08f602a4c6d186e3cb480d2c6efb96c01d1b3f7fc9532ed86c8014d368bb1dff",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC10"
+   ]
+  },
+  "reamps/BC11_bursts_lad.wav": {
+   "sha256": "f07c088dfeab172428a9201ab3be2f5f0a398b4096e1ca44ade5cd6e65cac433",
+   "sample_rate": null,
+   "probe": "bursts",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC11"
+   ]
+  },
+  "reamps/BC11_music_lad.wav": {
+   "sha256": "0bffad0a76aa801c1cf368cc06162954baba2d5e3eef7cb0c6b5aa1202b6f9cd",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "boss-bc1x/BC11"
+   ]
+  },
+  "reamps/BC11_plucks_lad.wav": {
+   "sha256": "41a33d162faa9ca6213d6762ab7deca44c9a2aee9dd0a5eb632f1c50a7c2b792",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC11"
+   ]
+  },
+  "reamps/BC15_bursts_lad.wav": {
+   "sha256": "550ee8488a48434f7e7acb52f19312e6ddb30663078c0230c7e808fa7dad774b",
+   "sample_rate": null,
+   "probe": "bursts",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC15"
+   ]
+  },
+  "reamps/BC15_ess_ladder_lad.wav": {
+   "sha256": "e9c7d3aaf7d0f570da03ea45581e1a641e8351ee0b5ae300242f98e2aa3052f9",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC15"
+   ]
+  },
+  "reamps/BC15_plucks_lad.wav": {
+   "sha256": "2a521fda5cfec8f1c6102239ecc46ea803c27d09138ef04b8c9db946d1bf0920",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "boss-bc1x/BC15"
+   ]
+  },
+  "reamps/L01.wav": {
+   "sha256": "838f2bed9f51a3465d51489d2b089dacc0b9277f5df4d45270c7bdcc99f3512e",
+   "sample_rate": 48000,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "interface/LOOP-NULL"
+   ]
+  },
+  "reamps/L03.wav": {
+   "sha256": "3eb0b0d7a35c43e6f34e8662c33a6e550e5f8b498cce056e4fbfe205aa34cf3e",
+   "sample_rate": 48000,
+   "probe": "silence",
+   "publishable": true,
+   "used_by": [
+    "interface/LOOP-NOISE"
+   ]
+  },
+  "reamps/MUFF01_ess_ladder_lad.wav": {
+   "sha256": "9cc439db684c8121576f2bdb1e52cd66d4350cdb1d34e3c430ca697df100650b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF01"
+   ]
+  },
+  "reamps/MUFF02_ess_ladder_lad.wav": {
+   "sha256": "65912accec319264e133f5b613289890878f7d2208cb3616f236ee8da8f37f60",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF02"
+   ]
+  },
+  "reamps/MUFF02_levels_lad.wav": {
+   "sha256": "791be9954247ab820ccf4aaa56c74162cd1021e88c79afbfa4ceadfc2cd156fa",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF02"
+   ]
+  },
+  "reamps/MUFF02_music_lad.wav": {
+   "sha256": "abd44a59d1a3eba33a015218e7451e58505807720c35a75d6a04023cc4291148",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF02"
+   ]
+  },
+  "reamps/MUFF03_ess_ladder_lad.wav": {
+   "sha256": "bde0256b480cd600732506dbcd2d63b93a16a53457556b7f7ae2b9cb5e2b604f",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF03"
+   ]
+  },
+  "reamps/MUFF04_ess_ladder_lad.wav": {
+   "sha256": "028f8393aa09d23ffc9d577388ab8e2d8106558e90639d5c20c9ecc3009b906b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF04"
+   ]
+  },
+  "reamps/MUFF05_ess_ladder_lad.wav": {
+   "sha256": "6ce5498877d06205dc6fe880b880071f4119c66161be87675bb72627eb03326d",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF05"
+   ]
+  },
+  "reamps/MUFF05_levels_lad.wav": {
+   "sha256": "1a6a20298071480a05dd3c3a7eb9bf53f85db706b9f3a1132a911ccd36f4da10",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF05"
+   ]
+  },
+  "reamps/MUFF06_ess_ladder_lad.wav": {
+   "sha256": "0d4d17e1cef175b726ed8fa31f399478dc5ba5c277ff90eb6ffec85c98d0761c",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF06"
+   ]
+  },
+  "reamps/MUFF06_levels_lad.wav": {
+   "sha256": "97c086c2f4a9dc26c3d268354041f02033f2ed35926c37cff6bdd9370b54dc4f",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF06"
+   ]
+  },
+  "reamps/MUFF07_ess_ladder_lad.wav": {
+   "sha256": "2717e679b31d182a1bde27c66fe86ddcc4279ae51402d09eb00d6bf22ff936d7",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF07"
+   ]
+  },
+  "reamps/MUFF07_levels_lad.wav": {
+   "sha256": "895cd1f239798e442df9b3f276a6d3e1c5ff309e4cb1aa1a2709df2ad4eae87d",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF07"
+   ]
+  },
+  "reamps/MUFF08_ess_ladder_lad.wav": {
+   "sha256": "a562ba21ba66c68a6603be63bc5d39df801d3b50f684a02eb2c9d28c13029848",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF08"
+   ]
+  },
+  "reamps/MUFF08_levels_lad.wav": {
+   "sha256": "3eb10f1d23d0457eebd803e79fb455837ac42102807e226fa5254876eb5d69d6",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF08"
+   ]
+  },
+  "reamps/MUFF09_ess_ladder_lad.wav": {
+   "sha256": "fb35ec9e6e0b7c9f935dfa8f7c0baabc1df1322bbb7ea09befa913b44b3f87fc",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF09"
+   ]
+  },
+  "reamps/MUFF09_levels_lad.wav": {
+   "sha256": "1ef26fa2ba512dd97703b3947ce590f7fe6bc55fad73e5f1da0a6d3f7339482c",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF09"
+   ]
+  },
+  "reamps/MUFF10_ess_ladder_lad.wav": {
+   "sha256": "a08778380d59c39f35cecf4340d47f83a624b6c24e7ee962e82ef635e8c805ff",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF10"
+   ]
+  },
+  "reamps/MUFF10_levels_lad.wav": {
+   "sha256": "a65951be0f2ef2c292ba778b7a24ef47d116f542725ff944da58981b2a23373d",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF10"
+   ]
+  },
+  "reamps/MUFF11_ess_ladder_lad.wav": {
+   "sha256": "9e622b7514bbcfa70ccd29d1a7c805184ec9b50bc012a88fbf11a4575ac82cd5",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF11"
+   ]
+  },
+  "reamps/MUFF11_levels_lad.wav": {
+   "sha256": "76da1e62aeddc5cbda60fd0c36c3376139089cc157148f7125fd1e883f4ecd12",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF11"
+   ]
+  },
+  "reamps/MUFF11_levels_lad30.wav": {
+   "sha256": "5a3dc929cdfccda7d4436741706ac7dd89e4e571c08021640aace29a060d5cc3",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF11"
+   ]
+  },
+  "reamps/MUFF11_music_lad.wav": {
+   "sha256": "b668a516a8470d3486e3238303747e25b3ae3a02339235d1c30c1dee0771887d",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF11"
+   ]
+  },
+  "reamps/MUFF12_ess_ladder_lad.wav": {
+   "sha256": "61c80f6f891c0892efafffa330c8c56086ac5fd60d4ef8a1e3abf009d6755147",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF12"
+   ]
+  },
+  "reamps/MUFF12_levels_lad.wav": {
+   "sha256": "3e056351ca64a49eb734dd10b7dd48eafc0c44fdc163a9b76d6dbdb7d4c2b091",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF12"
+   ]
+  },
+  "reamps/MUFF13_ess_ladder_lad.wav": {
+   "sha256": "6dc764e2b7de564d00ea0d6568d5a1164a1cf4de3cc4f040273b12d6f63c7999",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF13"
+   ]
+  },
+  "reamps/MUFF13_levels_lad.wav": {
+   "sha256": "2e222fd891247f480bc586cd449c0a574fa90e6a924dfe9edf58df9855e8cd26",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF13"
+   ]
+  },
+  "reamps/MUFF14_ess_ladder_lad.wav": {
+   "sha256": "1cbdc71e14ddf950e52e8bace5b28553dfc8ee80a264810873aab901946a05c4",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF14"
+   ]
+  },
+  "reamps/MUFF14_levels_lad.wav": {
+   "sha256": "0ab5e43e02916d51a90151841e988a09cc9fa796773f5be1a2b5a4d4cfcbd7fc",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF14"
+   ]
+  },
+  "reamps/MUFF16_ess_ladder_lad.wav": {
+   "sha256": "5e83f80f1fee4996c1e912ceb366fe8e6d84a677801bb26f9d3eaa3f98c6ad3b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF16"
+   ]
+  },
+  "reamps/MUFF16_levels_lad.wav": {
+   "sha256": "7f8b44b77d1da6479581afe5a1b70e5f8c3dc146a1578031f3a563a6363cfcd2",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF16"
+   ]
+  },
+  "reamps/MUFF16_music_lad.wav": {
+   "sha256": "4ef19b664b33bb2370f08ea3ed7cd83877a5a60c1bf3d8f840e93046cb208023",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF16"
+   ]
+  },
+  "reamps/MUFF17_ess_ladder_lad.wav": {
+   "sha256": "673c6e65c065968e5df698255dd89a25aadc339becac4f29ebba0b67d76cd8b7",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF17"
+   ]
+  },
+  "reamps/MUFF17_levels_lad.wav": {
+   "sha256": "27130c4d3a5a143e2b3300e8ee2fed0081d757e8cc483ab2f078544b0883fcb8",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF17"
+   ]
+  },
+  "reamps/MUFF18_ess_ladder_lad.wav": {
+   "sha256": "44992a5c091e2305d09870c5cf49d8051d87cc81ef6a00accff733342e4295b6",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF18"
+   ]
+  },
+  "reamps/MUFF18_levels_lad.wav": {
+   "sha256": "f43e56a2f3d3115a6a2d36a2880b9bbec7040ee0a2a6c83de60538540920a6ea",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF18"
+   ]
+  },
+  "reamps/MUFF19_ess_ladder_lad.wav": {
+   "sha256": "c6c52c1f7ae86103c231082eaf52d9c76cba4bca8793c42de258e54f44886498",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF19"
+   ]
+  },
+  "reamps/MUFF19_levels_lad.wav": {
+   "sha256": "fd0e4ba59055192e061333073bfdd2cc7cce830b900560f0ec69ac685232059e",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF19"
+   ]
+  },
+  "reamps/MUFF19_music_lad.wav": {
+   "sha256": "eb97753de0f85c881c914b16aa3f6bed81fac9286ec8383524f40ee08a7048f1",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF19"
+   ]
+  },
+  "reamps/MUFF26_ess_ladder_lad.wav": {
+   "sha256": "3ddcb4ec3da8269c42bc5c28e2cbb0024a10ad88930a3ea9e173c34ee8537df8",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF26"
+   ]
+  },
+  "reamps/MUFF27_ess_ladder_lad.wav": {
+   "sha256": "805dd00c7c28852e4c5bf0d9ab730bb546b02fed193a135c16263ab619d14902",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF27"
+   ]
+  },
+  "reamps/MUFF28_ess_ladder_lad.wav": {
+   "sha256": "67492c2e7db109dc49aff585415e6c5f7f1465600a98d811fd5b1ca49dddb9d3",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF28"
+   ]
+  },
+  "reamps/MUFF28_levels_lad.wav": {
+   "sha256": "880727e9032ee282c4f7f0d0782fdec5425614c684f3aac76a2150eebdcde0b4",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF28"
+   ]
+  },
+  "reamps/MUFF29_ess_ladder_lad.wav": {
+   "sha256": "bfedd39909662ec08136b481c1a61c49d39f316b30aa4d4bccf7f9d84a5b8246",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF29"
+   ]
+  },
+  "reamps/MUFF30_ess_ladder_lad.wav": {
+   "sha256": "55d0646eac0cb7bc6e54f182cbb7ffef51493b81ee344b159bcdb66e6ebadeff",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF30"
+   ]
+  },
+  "reamps/MUFF30_levels_lad.wav": {
+   "sha256": "34ce723b85a20d56d957f62b1e071fd6234adb94fa19139910e5691885aadcf0",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF30"
+   ]
+  },
+  "reamps/MUFF31_ess_ladder_lad.wav": {
+   "sha256": "e6b33d9ae8eb805da77ef8e0afe438026384e793335739d01e68bcf629c32c96",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF31"
+   ]
+  },
+  "reamps/MUFF31_levels_lad.wav": {
+   "sha256": "e15b8b122024ee2a2406c336701e818e8b37e28eac2d3579221e5bcf46212686",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF31"
+   ]
+  },
+  "reamps/MUFF32_ess_ladder_lad.wav": {
+   "sha256": "e6285d36e303ecbb0ff180389c3592d062d90c955fdd00e23b06c4c3123e1846",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF32"
+   ]
+  },
+  "reamps/MUFF32_levels_lad.wav": {
+   "sha256": "a6ec83a9915b3afb37550fbea79b0deac6d6a29c5dd74603ba060e1ed55bf433",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF32"
+   ]
+  },
+  "reamps/MUFF33_ess_ladder_lad.wav": {
+   "sha256": "550b69b974105f182b309f05c1215616db18461be888665678d0f0274851a578",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF33"
+   ]
+  },
+  "reamps/MUFF33_levels_lad.wav": {
+   "sha256": "8f3c3362c7beafd96e8bfb6f76587ef5589721efa940a732a90ce7457d3da395",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF33"
+   ]
+  },
+  "reamps/MUFF34_ess_ladder_lad.wav": {
+   "sha256": "3a43b23d8e5167ac023d9c9e180adba411455be5874880ef936c195bf723906f",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF34"
+   ]
+  },
+  "reamps/MUFF34_levels_lad.wav": {
+   "sha256": "58be47390e02e3316a4dc9eba5018491f9317056f88a93a27dd3b71fff050545",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF34"
+   ]
+  },
+  "reamps/MUFF35_ess_ladder_lad.wav": {
+   "sha256": "82db0f5d46433accfdf92675bb6c27c4c4e886333f44d1db9ea78deba6c28e89",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF35"
+   ]
+  },
+  "reamps/MUFF35_levels_lad.wav": {
+   "sha256": "2fde00a2149c8c3046004f6132be83d1fcbb830f364adddf791b0ecf20c96620",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF35"
+   ]
+  },
+  "reamps/MUFF36_ess_ladder_lad.wav": {
+   "sha256": "fdafc99a46092e61a06297074e0e95df08d8e06fe76cbe4ed853d7cae56f460c",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF36"
+   ]
+  },
+  "reamps/MUFF37_ess_ladder_lad.wav": {
+   "sha256": "3c449f06c9b030a283c2e16cab695b834ac604aa7494be0851da30dfa1a1749d",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "ehx-deluxe-bass-big-muff/MUFF37"
+   ]
+  },
+  "reamps/MYTH01_ess_ladder_lad.wav": {
+   "sha256": "5d655e347f8688cb8979e6297f9656651a49b9b24db2cc766d082f11aff3b4bc",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH01"
+   ]
+  },
+  "reamps/MYTH01_levels_lad.wav": {
+   "sha256": "e22b05f6f0870c5984900bb91fdc9098ba0efa28cc8d791aabea1c95a1a6de15",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH01",
+    "interface/LOOP-LEVELS"
+   ]
+  },
+  "reamps/MYTH02_ess_ladder_lad.wav": {
+   "sha256": "f4d42b9ba7cea7c94d04d9babd24c6fa74e8851813d01a173124f3dc77e0b245",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH02"
+   ]
+  },
+  "reamps/MYTH02_levels_lad.wav": {
+   "sha256": "5b5b459910c898fa358cbded0a3f3356c74d7b6d3966398867df0fb1bfd0b782",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH02"
+   ]
+  },
+  "reamps/MYTH03_ess_ladder_lad.wav": {
+   "sha256": "45adfa7e7f798f249d5230b2ff0ccb84a004f869d69fddafe46095e7a1104d32",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH03"
+   ]
+  },
+  "reamps/MYTH03_ess_ladder_lad30.wav": {
+   "sha256": "aad70afeec7391a0ad952be9baf4fb9c6435c71e23c9daaff0ba734a3ce59e2a",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH03"
+   ]
+  },
+  "reamps/MYTH04_ess_ladder_lad.wav": {
+   "sha256": "60c2c93e65888856464732fe86247622825aa1f15b0bf7cdc326769f81485e06",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH04"
+   ]
+  },
+  "reamps/MYTH05_ess_ladder_lad.wav": {
+   "sha256": "3ac2a3b293e1be2a7acfb2f374ab2a88555799c1111f0f9b0259a018a9ecb025",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH05"
+   ]
+  },
+  "reamps/MYTH06_ess_ladder_lad.wav": {
+   "sha256": "879345514dc82946552520d7e8d1a44554911d4ef02251ff4ac953ba2b1be4b6",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH06"
+   ]
+  },
+  "reamps/MYTH07_ess_ladder_lad.wav": {
+   "sha256": "a728a60c055b0c7065719f22ab00677de6c1fd43cc9e958a5862fcf33869e8c0",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH07"
+   ]
+  },
+  "reamps/MYTH08_ess_ladder_lad.wav": {
+   "sha256": "c792c99d0578293a31a0f05ed3e5f5b7061a0d2dea83f68c3c49fe04b6fee2fc",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH08"
+   ]
+  },
+  "reamps/MYTH09_ess_ladder_lad.wav": {
+   "sha256": "b28a3069dc655c42de24ed18b3131483902f2d800e4fedbf220c54d57132423b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH09"
+   ]
+  },
+  "reamps/MYTH10_ess_ladder_lad.wav": {
+   "sha256": "22c5f9cc76609bb24f8ed41896b210c465de863c3e5e6c993e152ab840d4f10c",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH10"
+   ]
+  },
+  "reamps/MYTH11_ess_ladder_lad.wav": {
+   "sha256": "554b0fb9bba2c9df380aa437f1dc23d94515565e9494d54f1d80efa6ef2abc00",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH11"
+   ]
+  },
+  "reamps/MYTH12_ess_ladder_lad.wav": {
+   "sha256": "b45df2647ce7701e28a95a2b0722e394e78ed652e982f3abf659e3eb07e47a5b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH12"
+   ]
+  },
+  "reamps/MYTH12_levels_lad.wav": {
+   "sha256": "0fbfb8d3051c73703cd1a6da91314124aa27c6c846fd020e82762b77ef89f185",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH12"
+   ]
+  },
+  "reamps/MYTH12_music_lad.wav": {
+   "sha256": "9d976a4df9b5f6da78229d94581f71c753c3c35907eb38abfbe12e608998f39d",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH12"
+   ]
+  },
+  "reamps/MYTH13_ess_ladder_lad.wav": {
+   "sha256": "5bc65ba588c088050cbd5c46f3849456c93d5c2a867b1791d663595d28767aef",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH13"
+   ]
+  },
+  "reamps/MYTH13_levels_lad.wav": {
+   "sha256": "30499f52d030751bbe3e99b05f3d41e0c2b1291f161f4236166c9f4aa8cec62e",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH13"
+   ]
+  },
+  "reamps/MYTH14_ess_ladder_lad.wav": {
+   "sha256": "05fe030e860b7de7a8a5c7ae3c631021b37155456e844b9a5a3fb2078c77ad76",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH14"
+   ]
+  },
+  "reamps/MYTH14_levels_lad.wav": {
+   "sha256": "645f1131aae927614355ea5541da02d440b6e67f9583ae65bd68ebf934921e62",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH14"
+   ]
+  },
+  "reamps/MYTH15_ess_ladder_lad.wav": {
+   "sha256": "76b3425a85759ac49ea0e5b77b4ba9384bca93a3b1bcf88a32b5d37b295a0755",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH15"
+   ]
+  },
+  "reamps/MYTH15_levels_lad.wav": {
+   "sha256": "a1b4eab119f10bcb1be8c57fa4dada6c6f54c50823e65a92de9ec67fb66d938a",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH15"
+   ]
+  },
+  "reamps/MYTH15_music_lad.wav": {
+   "sha256": "7f2f35bdc169b2f5f69c6fe29d62ebc4ca567972e9302d02a685e29d08665d5c",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH15"
+   ]
+  },
+  "reamps/MYTH16_ess_ladder_lad.wav": {
+   "sha256": "70995b4d17971f3c32d16ec659110fb5246a67951db524ebf4221575530d033e",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH16"
+   ]
+  },
+  "reamps/MYTH16_levels_lad.wav": {
+   "sha256": "b25288a0a538462da57727d52ac5a08e4359bbe6177e3b3deb4f488e076f03e0",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH16"
+   ]
+  },
+  "reamps/MYTH18_ess_ladder_lad.wav": {
+   "sha256": "9670ae41e3ac5e45931ef4bfb529906c85e60305b195883f9a7483af55c5ef23",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH18"
+   ]
+  },
+  "reamps/MYTH18_levels_lad.wav": {
+   "sha256": "b48dce9d980bc66e4ead549441bd78fd394e1bf9451bd063fb27148c45e035a8",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH18"
+   ]
+  },
+  "reamps/MYTH19_ess_ladder_lad.wav": {
+   "sha256": "cae493aa8ea93d4a1d56cf15c0a8d2c9d9c23c7af06df0c3c26adbf5a45602be",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH19"
+   ]
+  },
+  "reamps/MYTH19_levels_lad.wav": {
+   "sha256": "b0f15f24245908fcff9aef3a69b18aca8559df0e80cb29711bd52c83c50bea54",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH19"
+   ]
+  },
+  "reamps/MYTH20_ess_ladder_lad.wav": {
+   "sha256": "fbb0571fa6a92e5c39605fba37b0615f44bdee6460f5e01a35c31fa78adb4ce4",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH20"
+   ]
+  },
+  "reamps/MYTH20_levels_lad.wav": {
+   "sha256": "a64ce7c71698fe2947bced0014817251c7076182b61b337811c07d43e7cace4e",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH20"
+   ]
+  },
+  "reamps/MYTH21_ess_ladder_lad.wav": {
+   "sha256": "0c423553db08507cf33de57a0addb853b518657e0026de5faa0d13216ee3256b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH21"
+   ]
+  },
+  "reamps/MYTH21_levels_lad.wav": {
+   "sha256": "adebacfc41b54e54eca5537ee0f0d1fdc96f651bcee809d8d55e4b6c051490c3",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH21"
+   ]
+  },
+  "reamps/MYTH22_ess_ladder_lad.wav": {
+   "sha256": "e58b82bf16d4c4a5cdd63306041ebffda96b7a7705821bc65468b53ceff3b9c8",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH22"
+   ]
+  },
+  "reamps/MYTH22_levels_lad.wav": {
+   "sha256": "171014f13816d8d63981b08185891d45f7f4aac4c62b9bbbe7c92710f0a3804d",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH22"
+   ]
+  },
+  "reamps/MYTH22_music_lad.wav": {
+   "sha256": "7d81906bab70ec263a4bb409154320c886c440af74de271715663aeca4c3f3f8",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH22"
+   ]
+  },
+  "reamps/MYTH23_ess_ladder_lad.wav": {
+   "sha256": "f687d98eb842f778cd5fd2774f220663b0973c4ba5e17a1922382e9dbff8e9db",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH23"
+   ]
+  },
+  "reamps/MYTH23_levels_lad.wav": {
+   "sha256": "b2509ab86903fca6b5409166e3e392545047193891eb4ff8d2395c331a61e234",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH23"
+   ]
+  },
+  "reamps/MYTH24_ess_ladder_lad.wav": {
+   "sha256": "84ec2e937c05224349e815abdd549f7f1e42f2c20a9dcfffe554473c01e46836",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH24"
+   ]
+  },
+  "reamps/MYTH24_levels_lad.wav": {
+   "sha256": "e3736f9cee0f2e75e746ba443e0e73adbb1ed21deec22e80f5751f8ac049da5b",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH24"
+   ]
+  },
+  "reamps/MYTH25_ess_ladder_lad.wav": {
+   "sha256": "42e9096d5d69e142bab9b488acdca0db551e035d573408f22ac4b2cc2944d242",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH25"
+   ]
+  },
+  "reamps/MYTH25_levels_lad.wav": {
+   "sha256": "3abb1a46a0ce0ae7b78a37a52fa7d059834164fe8205b03fdab8deed0742899e",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH25"
+   ]
+  },
+  "reamps/MYTH26_ess_ladder_lad.wav": {
+   "sha256": "9f5300f06176c0ba04384ee6e8669ff6cd27db49b6a3d389dd1ccbcce845c7ca",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH26"
+   ]
+  },
+  "reamps/MYTH26_levels_lad.wav": {
+   "sha256": "73250ecbdcd72fcdba561f2e24679d53bcadae73bf20e496e90719f123b89834",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH26"
+   ]
+  },
+  "reamps/MYTH27_ess_ladder_lad.wav": {
+   "sha256": "e99f9f01ee982e400c621370dadcb48adc0fc0d46160ebddd10a9fde75a0cf66",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH27"
+   ]
+  },
+  "reamps/MYTH27_levels_lad.wav": {
+   "sha256": "11ee00628f48dea5df5e6be9ccd39d9ac9a94f24b3434512bdbcc12b110e0546",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH27"
+   ]
+  },
+  "reamps/MYTH28_ess_ladder_lad.wav": {
+   "sha256": "a255453ffd0c97a7df3ad34233be30e90bec9368a49b47f26ff0d939e10f7d9c",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH28"
+   ]
+  },
+  "reamps/MYTH28_levels_lad.wav": {
+   "sha256": "a041c349f85d2065bbcfe039da560b62f4e8436267e8353c0145b97c6c7eeef4",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH28"
+   ]
+  },
+  "reamps/MYTH29_ess_ladder_lad.wav": {
+   "sha256": "b66c7314020473403b9ab9361c1c0e6d3e0afa0d5e4fdcfbbb534878903bf022",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH29"
+   ]
+  },
+  "reamps/MYTH29_levels_lad.wav": {
+   "sha256": "1244a8572f3e4fd8c1a512e2b543bfdda553104043acd010dfaee7242875a8f2",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH29"
+   ]
+  },
+  "reamps/MYTH30_ess_ladder_lad.wav": {
+   "sha256": "98d80493a63dbe5cffe3bfc3e8dcba9ed1a1a8b9ea67188c2aa611e476aa5e62",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH30"
+   ]
+  },
+  "reamps/MYTH30_levels_lad.wav": {
+   "sha256": "aa41808fe5c2073d9206c82d784ab39eed90322b9b6d0e4913b9c45e03e237a9",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH30"
+   ]
+  },
+  "reamps/MYTH31_ess_ladder_lad.wav": {
+   "sha256": "81981ee65de83e944c6932de7946985f5edbd920fd172b22d868c57d6564c746",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH31"
+   ]
+  },
+  "reamps/MYTH31_levels_lad.wav": {
+   "sha256": "671a824838d53d158714d95386b34598a428d5fb0253a13b6f5a84759661e320",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH31"
+   ]
+  },
+  "reamps/MYTH32_ess_ladder_lad.wav": {
+   "sha256": "6dad6a40e2d318f2638956a9cf5b0f088e122bc1c9b5bdb2d5657b4ea2ecc16e",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH32"
+   ]
+  },
+  "reamps/MYTH32_levels_lad.wav": {
+   "sha256": "be91bc99e1a1042676e3a10f7aaec1412be664b1d936a1ce4b6eaf2584901cb6",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH32"
+   ]
+  },
+  "reamps/MYTH35_ess_ladder_lad.wav": {
+   "sha256": "63e7b881364b4a32f63b5ed0f458daefc3417faf5377f230cd3809ec24722b24",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH35"
+   ]
+  },
+  "reamps/MYTH36_ess_ladder_lad.wav": {
+   "sha256": "e07204b44229c507cb8ed19450189bce13ca99ad54cdf2f1279aa889ff9ac17a",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH36"
+   ]
+  },
+  "reamps/MYTH37_ess_ladder_lad.wav": {
+   "sha256": "0415c7fbfcbfcdd6d7234e48ae7bb6f403b3209b3f9b04d2cc03e0cbcee7971c",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH37"
+   ]
+  },
+  "reamps/MYTH38_ess_ladder_lad.wav": {
+   "sha256": "c7297f544b2fc9aa2625a8fa961d72e8007ba1b8472578f6caefcac3ed406723",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH38"
+   ]
+  },
+  "reamps/MYTH39_ess_ladder_lad.wav": {
+   "sha256": "5a30b71e77d70008ef97e827a26698b7668b9f921a3d040b47bbdabcfb8d886b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH39"
+   ]
+  },
+  "reamps/MYTH39_levels_lad.wav": {
+   "sha256": "b451941d6a94dfc3dfeb52c6746e5e8cdf6a28dcef1c7ff6ffe0e3aec1c403d3",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH39"
+   ]
+  },
+  "reamps/MYTH40_ess_ladder_lad.wav": {
+   "sha256": "5ec23cd4530f08c9f52c366cd02346701c45952f1ec9a42064088007c4ef5a39",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH40"
+   ]
+  },
+  "reamps/MYTH40_levels_lad.wav": {
+   "sha256": "83e60269306538a75fa65f0c66f3eb4e99890d4b8f808455178150801f53ccd9",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH40"
+   ]
+  },
+  "reamps/MYTH41_ess_ladder_lad.wav": {
+   "sha256": "7ea3be0bc7d17d5f333317533bd198ad7538ef3a480133eadb2c25bbd90b554f",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH41"
+   ]
+  },
+  "reamps/MYTH41_levels_lad.wav": {
+   "sha256": "993ea1a88a61b75c72cb89b90e2f2228062b9badd89fffaa86a4e24991df97c9",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH41"
+   ]
+  },
+  "reamps/MYTH42_ess_ladder_lad.wav": {
+   "sha256": "53dcca29b28ad93a065e560d7c1a8dd4fffe3f74de94c2137c686dbf52dfed71",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH42"
+   ]
+  },
+  "reamps/MYTH42_levels_lad.wav": {
+   "sha256": "01540ed6a6dd2898c00c30908f1bf0acc7ddca7572e0cb50e019eaddee980bd9",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r26-monomyth/MYTH42"
+   ]
+  },
+  "reamps/NR01_levels.wav": {
+   "sha256": "66fdb33e1964fe942d57b6be2592cff319874460da778e9929a3043e55edd0ca",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR01"
+   ]
+  },
+  "reamps/NR01_music.wav": {
+   "sha256": "15a69932a70d621674a65db9a397222ee8e373fa8e1278bd0124f76c962d353f",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR01"
+   ]
+  },
+  "reamps/NR02_levels.wav": {
+   "sha256": "a22202ef19b6f6333243414bd624259ca39da0034cfa062e1a473a578a18a586",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR02"
+   ]
+  },
+  "reamps/NR02_music.wav": {
+   "sha256": "2403b4db2f6ecea53723838577c49524147a953630e3a59e6fd0dab9e2c60de6",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR02"
+   ]
+  },
+  "reamps/NR03_levels.wav": {
+   "sha256": "db71f8f6c082b3d730a680d128e6b6f9bfe1b09d49ad722504a58a7aa2854aef",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR03"
+   ]
+  },
+  "reamps/NR03_music.wav": {
+   "sha256": "91b9bf262adb8bd089ebae954ee6e739eebcb114d9ee358d7b0df457f45f0f1a",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR03"
+   ]
+  },
+  "reamps/NR04_levels.wav": {
+   "sha256": "5158b9d67854adf5b6a14f49b7397c4c121b5b0e011aee9fc5931cb08b91cf23",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR04"
+   ]
+  },
+  "reamps/NR04_music.wav": {
+   "sha256": "f79b6abd21ab47bc65061f7cfcfd8646ec3f9be783c2f864665aacdf50ca4be7",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR04"
+   ]
+  },
+  "reamps/NR05_levels.wav": {
+   "sha256": "7bc24ce7cac266af552b3755abf965c7997b68464c09f87a6c2235a6fb14dc61",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR05"
+   ]
+  },
+  "reamps/NR05_music.wav": {
+   "sha256": "c7f2a71a6e9b5394eb6f81282b441367648e1312b9558618f21fd925081c8af2",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR05"
+   ]
+  },
+  "reamps/NR06_levels.wav": {
+   "sha256": "842a4018240710300c46ffd8e1e41f7b0a35402960f5ebf1d873ae9cfa5f07e5",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR06"
+   ]
+  },
+  "reamps/NR06_music.wav": {
+   "sha256": "8104b642ceb61292cf2cdec329db5a037df2310097bba1c151666325e57b1387",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR06"
+   ]
+  },
+  "reamps/NR07_levels.wav": {
+   "sha256": "6d9ddc1436c803c59ac7a73702d0ef61e7b04afbf4de51897de96295065350a7",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR07"
+   ]
+  },
+  "reamps/NR07_music.wav": {
+   "sha256": "b7082a268705608a3fc0df694dc80cf3531f8ee7f2a430b622f6b8769619f8c6",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR07"
+   ]
+  },
+  "reamps/NR08_levels.wav": {
+   "sha256": "e97ff309d996d1416d17c41ac8be844e847e5344259a5d2ab9ea5ad984ed5f4c",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "behringer-nr300/NR08"
+   ]
+  },
+  "reamps/NR08_music.wav": {
+   "sha256": "379e03e6ebf9e0335df527fce6fba35d3cf04ba4bb8cec69cd5d36b8bdcda909",
+   "sample_rate": 44100,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "behringer-nr300/NR08"
+   ]
+  },
+  "reamps/SEEK01_ess.wav": {
+   "sha256": "46fc972fc7f6265266e36dc1ce14682a8b2313dd6822f6124a21db03c4bc49b8",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK01"
+   ]
+  },
+  "reamps/SEEK02_ess.wav": {
+   "sha256": "03a3991f8bba456742cb155047c7eb6845f2fe984e613bcc1e239460f482d6bd",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK02"
+   ]
+  },
+  "reamps/SEEK02_ess_ladder_lad1018.wav": {
+   "sha256": "fba86b688a39476750184c7ee541f8fb87cf95d01fa684ee2c13a9255fc29266",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK02"
+   ]
+  },
+  "reamps/SEEK03_ess.wav": {
+   "sha256": "aa7466e61c7a9a86d4f0cc3019aa1845b002be0a6abb21b193f276f262f1f381",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK03"
+   ]
+  },
+  "reamps/SEEK03_ess_ladder_lad.wav": {
+   "sha256": "171c73836902935b8827ac18b04310ae28ab541419b7b514b89c74cef674f248",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK03"
+   ]
+  },
+  "reamps/SEEK03_ess_lin.wav": {
+   "sha256": "651ade1b6c97881e4125d9f500c25d75ed480f0c0e2f58bc5beb49812f6e9d26",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK03"
+   ]
+  },
+  "reamps/SEEK04_ess.wav": {
+   "sha256": "7c33aa1c614d3b1995bf5b290c8862bcc0f86f39db163764d6f95da5e1dedda2",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK04"
+   ]
+  },
+  "reamps/SEEK04_ess_ladder_lad.wav": {
+   "sha256": "64034293ffcb48c6a1ecf8027b32b0adbe43977addd18adeab02e1a4bff1d86f",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK04"
+   ]
+  },
+  "reamps/SEEK04_ess_lin.wav": {
+   "sha256": "a0fc636a977f7531e747b2fad71a89946edee49d6dd77d1892b417aeca612687",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK04"
+   ]
+  },
+  "reamps/SEEK05_ess.wav": {
+   "sha256": "fdc9acec9b7469ca298d4c11102623fdcd14eebd64c8197f752f9015128c1347",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK05"
+   ]
+  },
+  "reamps/SEEK05_ess_ladder_lad.wav": {
+   "sha256": "3a659e573ae18c30bafec71fd4a4686c38152126bde98ce1ae5cc8a71b3d75e9",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK05"
+   ]
+  },
+  "reamps/SEEK05_ess_lin.wav": {
+   "sha256": "51d6ca1f5d71166ae418ad6123d779c869c04e9a77f7fb956e5b571d0f341dc7",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK05"
+   ]
+  },
+  "reamps/SEEK06_ess.wav": {
+   "sha256": "08668d1f6e6d545964e52d8431be6dd550dfbf45d9724551e8cfe05a12d8f32e",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK06"
+   ]
+  },
+  "reamps/SEEK06_ess_ladder_lad.wav": {
+   "sha256": "695d7ce41417e4f6d795b6360c11f95abf3b7e90412b4af6f745b14dae9017f0",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK06"
+   ]
+  },
+  "reamps/SEEK06_ess_lin.wav": {
+   "sha256": "e1e1026a39672f95af2deb0c28ec789afeb9aad6f500c5613297dd5c0ef01fb5",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK06"
+   ]
+  },
+  "reamps/SEEK07_ess.wav": {
+   "sha256": "6e3ae9c40a70151a7ecea9ce063f42186ae290f77220b17b96b26b01f1343ad0",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK07"
+   ]
+  },
+  "reamps/SEEK07_ess_ladder_lad.wav": {
+   "sha256": "99d250f68095874fc045ab5fb2fbb79227f6d7f1b2c1c10fac4335ce1284e8f0",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK07"
+   ]
+  },
+  "reamps/SEEK07_ess_lin.wav": {
+   "sha256": "176215f1f6f7656b997620b2d51aa35aab415e8899620af129eade1b41856042",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK07"
+   ]
+  },
+  "reamps/SEEK08_ess.wav": {
+   "sha256": "5485f954b4434c037c80fb0b850cfbdfe31a34aa05c4258b292dfb42540e90c6",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK08"
+   ]
+  },
+  "reamps/SEEK08_ess_ladder_lad.wav": {
+   "sha256": "1ee2ea16ccc310cd8e70bce3f2b352cb6e9afa76dddac9b9f4427dd6ec66f92a",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK08"
+   ]
+  },
+  "reamps/SEEK08_ess_lin.wav": {
+   "sha256": "def7379a2e4c3bb838a332c48e7172ce378c3ee1482a1b52da9b7e3a6e9caa7a",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK08"
+   ]
+  },
+  "reamps/SEEK09_ess.wav": {
+   "sha256": "056a3b1431424ff2c5a5d4612e7185ce8a1f337e6878c446874988c30d44715e",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK09"
+   ]
+  },
+  "reamps/SEEK09_ess_ladder_lad.wav": {
+   "sha256": "908c5dae3466c46698cbccd5a57117c9909a59bb9531881de959d36df91ca3cc",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK09"
+   ]
+  },
+  "reamps/SEEK09_ess_lin.wav": {
+   "sha256": "9a47db875250ece1d953fe910261f4df42c2a2231a9bb09391ccab8f88ce4a5f",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK09"
+   ]
+  },
+  "reamps/SEEK10_ess.wav": {
+   "sha256": "edc6b300a69556e6d9f173f1fa5d0b8ca9d6c3fdaee89e8643eb16bcacd00bd7",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK10"
+   ]
+  },
+  "reamps/SEEK10_ess_ladder_lad.wav": {
+   "sha256": "207507dabd30b83b44fe6188eac979ab4416878a174b3c1b877167384718c06a",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK10"
+   ]
+  },
+  "reamps/SEEK10_ess_lin.wav": {
+   "sha256": "734bf3359e3d0b17a42c9143780bcb61e80db6403cf715c6e93b8bd386bc3d88",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK10"
+   ]
+  },
+  "reamps/SEEK11_ess.wav": {
+   "sha256": "425949a14ebc0c51f7aa009a8e6967121bcdd8a5be245022bd685a3ba00cfa66",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK11"
+   ]
+  },
+  "reamps/SEEK11_ess_ladder_lad.wav": {
+   "sha256": "b771bc608bbf9efb32889da56553f897e436396fbe85f5ba5f4b025de0f7824e",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK11"
+   ]
+  },
+  "reamps/SEEK11_ess_lin.wav": {
+   "sha256": "12fcefb65ec0a33af98b2b6d349766dcd7e37016ccb6bb0c7dd07d821fa965d0",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK11"
+   ]
+  },
+  "reamps/SEEK12_ess.wav": {
+   "sha256": "55fa55262eee36e0ddd5539d7e65d6049c674e9092a603a6ec4fcdf1ea6f2323",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK12"
+   ]
+  },
+  "reamps/SEEK12_ess_ladder_lad.wav": {
+   "sha256": "07db6ae4d4170acdfc927a0732fbbc5d254681687a67e9d726fbc50f55582bb2",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK12"
+   ]
+  },
+  "reamps/SEEK12_ess_lin.wav": {
+   "sha256": "b589919cf784826f222057d640ab24404d1b27859f7737c8e60eac69f1388e7a",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK12"
+   ]
+  },
+  "reamps/SEEK13_ess.wav": {
+   "sha256": "5021a91c70abfa116c683e44a6106cc2adc4915b7491153ce39454cfa36cc80b",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK13"
+   ]
+  },
+  "reamps/SEEK14_ess.wav": {
+   "sha256": "1818c524807565250394dacccaecc2ebaf05e186b41d4b3ca20181da5c73bcdd",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK14"
+   ]
+  },
+  "reamps/SEEK15_ess.wav": {
+   "sha256": "8575f86aa43680ea1c4408dfaea5fc4ea6e9ec0d7904ef511ac7bb2193e7f01d",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK15"
+   ]
+  },
+  "reamps/SEEK15_ess_ladder_lad.wav": {
+   "sha256": "1848caa29ebf03b59b91debe14c1992dfa58ef3fa51b32587fc0b4e7167e0563",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK15"
+   ]
+  },
+  "reamps/SEEK16_ess.wav": {
+   "sha256": "66c31ca61eb50035901f91b3b2a0bddba370a06793150db22c234bb1cf0156fe",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK16"
+   ]
+  },
+  "reamps/SEEK16_ess_ladder_lad.wav": {
+   "sha256": "efc76040c5636cba88447712ccbe901860ffe7786665e40112e87a29bbf3a6e2",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK16"
+   ]
+  },
+  "reamps/SEEK17_ess.wav": {
+   "sha256": "4f736e562344bbf1da1c15f63a4a8334806a1e6358e0ad11059a31560370ecc1",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK17"
+   ]
+  },
+  "reamps/SEEK17_ess_ladder_lad.wav": {
+   "sha256": "7789e4babae23e3cb1ae2ffd269e9796e6d07076e991b4fcf10053fa0443896b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK17"
+   ]
+  },
+  "reamps/SEEK18_ess.wav": {
+   "sha256": "c7d196246a808aee9cd4ca530abc87bf017344af99ea22d75a224fbec6d82aa2",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK18"
+   ]
+  },
+  "reamps/SEEK19_ess.wav": {
+   "sha256": "f964bb74cd9dd728bc7b08096b44c09f7c4bae52b5e261fb209c0befa322fdfe",
+   "sample_rate": 44100,
+   "probe": "ess",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK19"
+   ]
+  },
+  "reamps/SEEK20_levels.wav": {
+   "sha256": "115a1a01e21e61feded366b689243109c81b74422ae2bbd53f17e1f4bc10e0cb",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK20"
+   ]
+  },
+  "reamps/SEEK21_ess_ladder_lad.wav": {
+   "sha256": "f55f084918433d7d435fd0dabc5aff76d0e468d8227539afee6adc256a543821",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK21"
+   ]
+  },
+  "reamps/SEEK22_ess_ladder_lad.wav": {
+   "sha256": "bcb75dd174dc51e228da3dced4bad0c4ae937dd65f577f5b613281b536dab81f",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK22"
+   ]
+  },
+  "reamps/SEEK23_levels.wav": {
+   "sha256": "b877671ac532d24a7dc04cadbf6f16259a915a8b935751a4038d25ae9ca2016d",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK23"
+   ]
+  },
+  "reamps/SEEK24_ess_ladder_lad.wav": {
+   "sha256": "a656781fc7aa45096705d7980bf6e8d1bb5e0adc011d80f629598b849db97d95",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK24"
+   ]
+  },
+  "reamps/SEEK25_ess_ladder_lad.wav": {
+   "sha256": "c8d2af168961795af6f87c3b5c8239a0eae59204df89f7938e4d43be7abe2f4d",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK25"
+   ]
+  },
+  "reamps/SEEK27_ess_ladder_lad.wav": {
+   "sha256": "b7f5128ca97ec892290456b6d95bbf25b104c31c8618cbbe1fc927e915ae6e85",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK27"
+   ]
+  },
+  "reamps/SEEK28_ess_ladder_lad.wav": {
+   "sha256": "db4bf38bbbe884a4a4127702eb827a7762caa8c9cda06ad5c7f6d38235e9121d",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK28"
+   ]
+  },
+  "reamps/SEEK29_ess_ladder_lad.wav": {
+   "sha256": "f59f4ba23efe9e977c9cc3078d65b89011a380309d46ae0f5025c961a4be1fa1",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "donner-eq-seeker/SEEK29"
+   ]
+  },
+  "reamps/TW01_ess_ladder_lad.wav": {
+   "sha256": "05725a15417e2cbf1364653d7fa9eb6b2822cd4c5db9c8496c74c8380988e240",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW01"
+   ]
+  },
+  "reamps/TW02_bursts_lad.wav": {
+   "sha256": "a2c3465e220ae583849e7a69d3215c7eb7f9d5ef1e5595f4bc260b8d532e2ce4",
+   "sample_rate": null,
+   "probe": "bursts",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW02"
+   ]
+  },
+  "reamps/TW02_ess_ladder_lad.wav": {
+   "sha256": "8d39d397a6830cca3f0e5e35009dbc79ccafbdb6ce3ccc8d4f701084bccd9fba",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW02"
+   ]
+  },
+  "reamps/TW02_ess_ladder_lad30.wav": {
+   "sha256": "9618f4d23292696cdb8e23fe96521f54f858949dec7b3f61d05fa5060fe57234",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW02"
+   ]
+  },
+  "reamps/TW02_levels_lad.wav": {
+   "sha256": "d9b37bc6aa008e8c8fdcfb50e4786a2efc8f887839fe1bde27f8d1d77042e549",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW02"
+   ]
+  },
+  "reamps/TW02_music_lad.wav": {
+   "sha256": "d9134fe89c76ecdae6043b859b84657156841b4192317dcacc1ca11f41bda73c",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW02"
+   ]
+  },
+  "reamps/TW02_plucks_lad.wav": {
+   "sha256": "5195bf41587b2ec9f9cb68ad9f86350d54d6f6e73dc6895b72a0b37985db2b69",
+   "sample_rate": null,
+   "probe": "plucks",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW02"
+   ]
+  },
+  "reamps/TW02_twotone_lad.wav": {
+   "sha256": "2d9a4efb89fc1ce17ec4c469598b05ff4b6ed4b6b4b094425275ef0e8a1473d0",
+   "sample_rate": null,
+   "probe": "twotone",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW02"
+   ]
+  },
+  "reamps/TW03_ess_ladder_lad.wav": {
+   "sha256": "d1a631521ee84897736e9a0b719b900c839c89b7cce6843a3868d732057313be",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW03"
+   ]
+  },
+  "reamps/TW03_levels_lad.wav": {
+   "sha256": "18f707e594dd33b483e7a20c1a3e605983551cf04480954763d121acae8a9ec2",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW03"
+   ]
+  },
+  "reamps/TW04_ess_ladder_lad.wav": {
+   "sha256": "113780e827fda25943f62e88abd7524a8a52da84aab59e0bc05c21246265b7e6",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW04"
+   ]
+  },
+  "reamps/TW04_levels_lad.wav": {
+   "sha256": "88cd7faf6abf87290db9cf654e693a3f8d98a95c472aa30ac2036b70ec5ea35c",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW04"
+   ]
+  },
+  "reamps/TW05_ess_ladder_lad.wav": {
+   "sha256": "c3786fd69e659fc18b4857bba98194200fcab43baf326ed4cb41bdf3872af83e",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW05"
+   ]
+  },
+  "reamps/TW05_levels_lad.wav": {
+   "sha256": "fc3e8f534700783214812774c10ac2b2aa0a5554890d97a2373c15a3c4c31d2a",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW05"
+   ]
+  },
+  "reamps/TW06_ess_ladder_lad.wav": {
+   "sha256": "01370eed0151002a37461b0f5a24d196a290dfc673a2b4c04f2ea821f0b33800",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW06"
+   ]
+  },
+  "reamps/TW06_levels_lad.wav": {
+   "sha256": "3e0c361e7247399ea5012654579c096f7a65a2dcc8cd72080aca4720affc057b",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW06"
+   ]
+  },
+  "reamps/TW06_music_lad.wav": {
+   "sha256": "6114568b55e774513793731325ad1ac665d5810f286f4ac6c6b6394d544bc10f",
+   "sample_rate": null,
+   "probe": "music",
+   "publishable": false,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW06"
+   ]
+  },
+  "reamps/TW07_ess_ladder_lad.wav": {
+   "sha256": "a8eb83e7058d59b367b607adf25e4cc963589a2450f81f126fa72e89e738b287",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW07"
+   ]
+  },
+  "reamps/TW07_ess_ladder_lad30.wav": {
+   "sha256": "5240ebf11abdc35922dd12df80b397c889f680078e531be52be958caa7a9da92",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW07"
+   ]
+  },
+  "reamps/TW07_levels_lad.wav": {
+   "sha256": "822051ce4ff7100d7452c3481890e26e606ae315f5317356a05f9a6a63458e45",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW07"
+   ]
+  },
+  "reamps/TW07_levels_lad30.wav": {
+   "sha256": "81402508c78d74c372a829148a9465e651ad85f653fbf4786e4de5d87c79d37a",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW07"
+   ]
+  },
+  "reamps/TW08_ess_ladder_lad.wav": {
+   "sha256": "83c6e9a5c3c069f9a69fca335fb301cd923ceb74149cc1d49bfd7760e42efdf0",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW08"
+   ]
+  },
+  "reamps/TW08_ess_ladder_lad30.wav": {
+   "sha256": "d99ad2abf2603e1071e74afada25a8838da3dda60e132020901de84e19dacb2c",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW08"
+   ]
+  },
+  "reamps/TW08_levels_lad.wav": {
+   "sha256": "733573c9732e920f1a05f9e5c1bb1ac673d06a26362612a36ab424d37fa6cf9a",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW08"
+   ]
+  },
+  "reamps/TW08_levels_lad30.wav": {
+   "sha256": "ed9b480b6e6ae8b239b4b856686ea984d60262b210561f9e4079bc2e9d49a27b",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW08"
+   ]
+  },
+  "reamps/TW09_ess_ladder_lad.wav": {
+   "sha256": "39317fd3be142c480e480cbee38988a3430cb0f548ad177420431772ff609cf6",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW09"
+   ]
+  },
+  "reamps/TW09_ess_ladder_lad30.wav": {
+   "sha256": "ac9a2367baceeed42b2c4964defd4e9448b5de950385044b94d03f54aa53222e",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW09"
+   ]
+  },
+  "reamps/TW09_levels_lad.wav": {
+   "sha256": "d7a432212d7091572fd9b702586388dc3b7ce8a120be6a4a1f88948dcc88f620",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW09"
+   ]
+  },
+  "reamps/TW09_levels_lad30.wav": {
+   "sha256": "de3eb90cd832975b29b994c22ad22cb4edee477c0da4ea579db1c16f300f1557",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW09"
+   ]
+  },
+  "reamps/TW10_ess_ladder_lad.wav": {
+   "sha256": "dd70b29ea02d791eab8625672d2ba379f08136f0d9ec72abc532529cd44be671",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW10"
+   ]
+  },
+  "reamps/TW10_ess_ladder_lad30.wav": {
+   "sha256": "07911aa0c985865dc6911526b4ba4ca642820b06447d03741ed3a2a17b5c59a4",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW10"
+   ]
+  },
+  "reamps/TW10_levels_lad.wav": {
+   "sha256": "0b0cbbd8a3bad5045c998086de359a2fa5411605ec82891369ce64dfed4e7da1",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW10"
+   ]
+  },
+  "reamps/TW10_levels_lad30.wav": {
+   "sha256": "c9e314b90fced0a1951b30e5b21276f2d628deb7b1f962e2c136b5db1bbdeb87",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW10"
+   ]
+  },
+  "reamps/TW11_ess_ladder_lad.wav": {
+   "sha256": "0dfb0b92c504a29fc74a2b32413b6e2f7a5c52ff23a0191cb1896ddb94c15a5e",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW11"
+   ]
+  },
+  "reamps/TW11_ess_ladder_lad30.wav": {
+   "sha256": "46e14e380218fef4e9a63d28ec373b09b593b3cd7c80946aded7193b7c98ad0d",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW11"
+   ]
+  },
+  "reamps/TW11_levels_lad.wav": {
+   "sha256": "7e422fcf5961f249d0a091ed59dbccc6263634360e1939cbbe63752640dab707",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW11"
+   ]
+  },
+  "reamps/TW11_levels_lad30.wav": {
+   "sha256": "28e8a619995e3878f47a52bac7b9feef398b9e9ea0fd519f96bcf53e691398db",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW11"
+   ]
+  },
+  "reamps/TW12_ess_ladder_lad.wav": {
+   "sha256": "0b0895575638ce46ccba0b9edd9d2b336d4e18205f18d29c85bcd10877d854fb",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW12"
+   ]
+  },
+  "reamps/TW12_ess_ladder_lad30.wav": {
+   "sha256": "a17a784584b4b46739eb7af66611be58e15dd4c8f1bf2ee2d425688698629d7a",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW12"
+   ]
+  },
+  "reamps/TW12_levels_lad.wav": {
+   "sha256": "d1c63b9660e194d694e0af2b8216e6151314bb4f39bcf3fbb6cd2315d708d300",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW12"
+   ]
+  },
+  "reamps/TW12_levels_lad30.wav": {
+   "sha256": "3105a81c77ae6f812bd4ddb6cc576cda9065b02883b47cb628de5838e8009c97",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW12"
+   ]
+  },
+  "reamps/TW13_ess_ladder_lad.wav": {
+   "sha256": "f0f3ce9d5d3b7d16d0691e3a75ab3d487012ea6694460f6b7664493b1fb655cc",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW13"
+   ]
+  },
+  "reamps/TW13_ess_ladder_lad30.wav": {
+   "sha256": "657c487c9abf5d057346c6d0dc6102948a4351dee8a7df3a58c4d1359504bcbd",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW13"
+   ]
+  },
+  "reamps/TW13_levels_lad.wav": {
+   "sha256": "8c08c1f658e1fdcf27dab7a0ca6cd22fde100dadaea4f42152b0f18d4f710ce6",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW13"
+   ]
+  },
+  "reamps/TW13_levels_lad30.wav": {
+   "sha256": "a052e7913a1a1de84179f489daeaa25a4fa342c3783bd8cfbc08ce15d08a39dc",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW13"
+   ]
+  },
+  "reamps/TW14_ess_ladder_lad.wav": {
+   "sha256": "3a0f8ddb55270dd00ee5a2cae20ee5b27507364c92638180e34318a2090ace58",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW14"
+   ]
+  },
+  "reamps/TW14_levels_lad.wav": {
+   "sha256": "6f503d4637eac05c74f2ecaea787c6c2bd1bfda41c68af9b94b72efccfc8d155",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW14"
+   ]
+  },
+  "reamps/TW15_ess_ladder_lad.wav": {
+   "sha256": "b5bc49ae1a850a2515d2c5c4d694745574aba153a5c9ce7aade9679462e5bc53",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW15"
+   ]
+  },
+  "reamps/TW15_levels_lad.wav": {
+   "sha256": "389520a0558fbee16d2537d02b532c1a5db79c310653822f14bece55a877ae06",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW15"
+   ]
+  },
+  "reamps/TW16_ess_ladder_lad.wav": {
+   "sha256": "62ce9b95922724ee7fe569af2ca11d1b8d50b12ed3a0a94951001594771f791b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW16"
+   ]
+  },
+  "reamps/TW16_levels_lad.wav": {
+   "sha256": "a54267522e2e7011282801f6f3e8fb9892b17fa52d68dcec20e7cb710f6a54eb",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW16"
+   ]
+  },
+  "reamps/TW17_ess_ladder_lad.wav": {
+   "sha256": "bc8933a53d2f5ae99f4ef934255c7a0b7c86d5e80d07f0b0c04b6b724f7b64bc",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW17"
+   ]
+  },
+  "reamps/TW17_levels_lad.wav": {
+   "sha256": "05c04b80576cedbdd20a05e00cecbce9f5ca642d80d4e1e3c0ba4f954c5e0883",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW17"
+   ]
+  },
+  "reamps/TW18_ess_ladder_lad.wav": {
+   "sha256": "f03a96e44c54a023f44bd9b6c4dc9bf403664ef3fd10d8a7e31f1a7cff5d5cd4",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW18"
+   ]
+  },
+  "reamps/TW18_levels_lad.wav": {
+   "sha256": "7618e83220d9ba51644fcc1fefa6004d1a83b1a658be79b2a460bf6e940a4faa",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW18"
+   ]
+  },
+  "reamps/TW19_ess_ladder_lad.wav": {
+   "sha256": "ec2f7f0902f8e1f0425ce013d1351e70d21d4af6c77c0dcc5f14ace4eca15418",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW19"
+   ]
+  },
+  "reamps/TW19_levels_lad.wav": {
+   "sha256": "ad6d3a33214016ed2157a07920f8af440d9414b7ba630a3f7ad3a6aecd600097",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW19"
+   ]
+  },
+  "reamps/TW20_ess_ladder_lad.wav": {
+   "sha256": "ab3c2dcf09deac496646a56a57c6bc9203452e0eb1c1a3fe805c8a6553eba75b",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW20"
+   ]
+  },
+  "reamps/TW20_levels_lad.wav": {
+   "sha256": "6dcfbffa668741e18884cac9bd5ea2e029fd2bee90f2b5fb8cd28803833c1309",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW20"
+   ]
+  },
+  "reamps/TW21_ess_ladder_lad.wav": {
+   "sha256": "50344b2e365d3ead79b17c1578c69247c256bb845674b28272f7d41a748257c6",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW21"
+   ]
+  },
+  "reamps/TW21_levels_lad.wav": {
+   "sha256": "25d0149330b5cb5cbfe92c90e67c4b7f2e861c58d98fc6811897f76a225467b0",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW21"
+   ]
+  },
+  "reamps/TW22_ess_ladder_lad.wav": {
+   "sha256": "ece1690c8d73589a3e68c9277d58a2394e014e2d95b37c92bedfc00fdb9b5a94",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW22"
+   ]
+  },
+  "reamps/TW22_levels_lad.wav": {
+   "sha256": "265e75b1c56a4606abdb1b6e3e7fb757185f20906e26be919edd70abc10d8517",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW22"
+   ]
+  },
+  "reamps/TW23_ess_ladder_lad.wav": {
+   "sha256": "1f35b76a093eb192b37a6fe3f750238cbbf374240843eaf164e239a5c6f7f546",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW23"
+   ]
+  },
+  "reamps/TW23_levels_lad.wav": {
+   "sha256": "6b09bb870cbe1dc236767f9d828616e194427bd5103e4c3b076f6dc18cfc1aff",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW23"
+   ]
+  },
+  "reamps/TW24_ess_ladder_lad.wav": {
+   "sha256": "eed13375c795612175c0ab6961aaa0705b0d3d1efe363c73e6dd56fb7d55e4d3",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW24"
+   ]
+  },
+  "reamps/TW24_levels_lad.wav": {
+   "sha256": "ed8166a353249c9c0a4a2ddb53960ace0bad279e722c96f76a050b7721440d07",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW24"
+   ]
+  },
+  "reamps/TW25_ess_ladder_lad.wav": {
+   "sha256": "41bc1c34f03f3a314b34be7997cce9a83da7467c425fdde79d260337f293c628",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW25"
+   ]
+  },
+  "reamps/TW25_levels_lad.wav": {
+   "sha256": "46ffbd9a6a459b528a06f1e23d81edb1809d0cb6d17f48306029bf8eba7ef207",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW25"
+   ]
+  },
+  "reamps/TW26_ess_ladder_lad.wav": {
+   "sha256": "349156a10171007d696c9a007282267b018ef03c40d99f59eef04996c7a63d06",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW26"
+   ]
+  },
+  "reamps/TW27_ess_ladder_lad.wav": {
+   "sha256": "20a74570458234352049ca0cf43347c4b69b9717a6ac5aa8097a85281c56f0fa",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW27"
+   ]
+  },
+  "reamps/TW27_levels_lad.wav": {
+   "sha256": "6d02a10321dcb66c1c1925b1de5b4172755d355e0a5b2693cc8258420dbc76e5",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW27"
+   ]
+  },
+  "reamps/TW28_ess_ladder_lad30.wav": {
+   "sha256": "a784f878128d18994933f0b17e5f9932271df34c8ba117983a5995f77d5b6911",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW28"
+   ]
+  },
+  "reamps/TW29_ess_ladder_lad.wav": {
+   "sha256": "2b44eee62e7542cdfd8d3731d023dd6b43baae3891b021194d3068451e486d21",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW29"
+   ]
+  },
+  "reamps/TW29_levels_lad.wav": {
+   "sha256": "3cfd2073141f85ff073a818f9ace55aa0a1aa542ded6b4613971f743154b7c4a",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW29"
+   ]
+  },
+  "reamps/TW30_ess_ladder_lad.wav": {
+   "sha256": "0c324b34da89ba9edca64d085c247047a53f1bb0a5e8784da7cabe064c2e0ff3",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW30"
+   ]
+  },
+  "reamps/TW30_levels_lad.wav": {
+   "sha256": "fa3e3100c5bca36438c1a5cc0af827ea740c1a0c2e66f124a6556fad6d819860",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW30"
+   ]
+  },
+  "reamps/TW31_ess_ladder_lad.wav": {
+   "sha256": "44f35ae8c835eafefc46ea24db8ebcb8c4dec3adc1725131c5883e3e3b2f48cf",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW31"
+   ]
+  },
+  "reamps/TW31_levels_lad.wav": {
+   "sha256": "a238bafa31ccb912aae389dd6152d02b4b6fc1f7688c7f7f6f5d6f5e15d25fc7",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW31"
+   ]
+  },
+  "reamps/TW32_ess_ladder_lad.wav": {
+   "sha256": "ba95c56d843bab4655b445972522e7ecb630fc6b353c07844efbbb5e9da11161",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW32"
+   ]
+  },
+  "reamps/TW32_levels_lad.wav": {
+   "sha256": "a21a3a7d22627a2cbba749e188a916bed7f331e2def2ff6b02306862ffeabb2c",
+   "sample_rate": 44100,
+   "probe": "levels",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW32"
+   ]
+  },
+  "reamps/TW33_ess_ladder_lad.wav": {
+   "sha256": "16393ce56830bd4659d430517529b7aada450ad4e626e0be31cfa8eb2ee3336f",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW33"
+   ]
+  },
+  "reamps/TW34_ess_ladder_lad.wav": {
+   "sha256": "7e54eecbe09572cb7e6e5f3ffb11e89d559a5ec7c878357611a7f9b5ea02e7f7",
+   "sample_rate": 44100,
+   "probe": "ess_ladder",
+   "publishable": true,
+   "used_by": [
+    "joyo-r22-tidal-wave/TW34"
+   ]
+  }
+ }
+}

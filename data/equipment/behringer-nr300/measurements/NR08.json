@@ -1,0 +1,205 @@
+{
+ "schema": "rig-equipment/take@1",
+ "equipment": "behringer-nr300",
+ "take_id": "NR08",
+ "description": "Threshold 9:00, Decay max",
+ "settings": {
+  "noise_reduction": "on",
+  "threshold": "9:00",
+  "decay": "max"
+ },
+ "captures": [
+  {
+   "capture": {
+    "file": "reamps/NR08_music.wav",
+    "sha256": "379e03e6ebf9e0335df527fce6fba35d3cf04ba4bb8cec69cd5d36b8bdcda909",
+    "sample_rate": 44100,
+    "probe": "music",
+    "tag": null,
+    "recorded": "2026-09-15",
+    "duration_s": 218.24,
+    "contaminated": null
+   },
+   "reference": {
+    "take_id": "NR01",
+    "file": "reamps/NR01_music.wav",
+    "sha256": "15a69932a70d621674a65db9a397222ee8e373fa8e1278bd0124f76c962d353f"
+   },
+   "alignment": {
+    "lag_samples": 233,
+    "polarity_vs_reference": "inverted"
+   },
+   "peak_dbfs": {
+    "positive": -16.17,
+    "negative": -11.42
+   },
+   "frame_percentiles": {
+    "frame_ms": 5.0,
+    "reference_dbfs": {
+     "p1": -98.26,
+     "p10": -94.1,
+     "p25": -87.17,
+     "p50": -43.67,
+     "p75": -36.32,
+     "p95": -25.46
+    },
+    "change_db": {
+     "p1": -4.39,
+     "p10": -2.87,
+     "p25": -4.72,
+     "p50": -0.17,
+     "p75": -0.18,
+     "p95": -0.2
+    }
+   },
+   "frame_gain_db_by_class": {
+    "music": {
+     "frames": 27138,
+     "median": -0.19,
+     "p10": -0.31
+    },
+    "transition": {
+     "frames": 4474,
+     "median": -0.83,
+     "p10": -15.94
+    },
+    "rest": {
+     "frames": 12134,
+     "median": -2.52,
+     "p10": -9.85
+    }
+   },
+   "musical_frames_band_gain": [
+    {
+     "centre_hz": 31.5,
+     "power_db": -0.23,
+     "coherent_db": -0.23,
+     "coherence": 1.0,
+     "input_level_dbfs": -42.44
+    },
+    {
+     "centre_hz": 63,
+     "power_db": -0.18,
+     "coherent_db": -0.18,
+     "coherence": 1.0,
+     "input_level_dbfs": -35.96
+    },
+    {
+     "centre_hz": 125,
+     "power_db": -0.17,
+     "coherent_db": -0.17,
+     "coherence": 1.0,
+     "input_level_dbfs": -33.89
+    },
+    {
+     "centre_hz": 250,
+     "power_db": -0.07,
+     "coherent_db": -0.08,
+     "coherence": 0.997,
+     "input_level_dbfs": -42.78
+    },
+    {
+     "centre_hz": 500,
+     "power_db": 0.22,
+     "coherent_db": 0.14,
+     "coherence": 0.976,
+     "input_level_dbfs": -59.36
+    },
+    {
+     "centre_hz": 1000,
+     "power_db": -0.16,
+     "coherent_db": -0.53,
+     "coherence": 0.854,
+     "input_level_dbfs": -69.21
+    },
+    {
+     "centre_hz": 2000,
+     "power_db": -0.6,
+     "coherent_db": -2.44,
+     "coherence": 0.685,
+     "input_level_dbfs": -84.16
+    },
+    {
+     "centre_hz": 4000,
+     "power_db": -0.2,
+     "coherent_db": -0.99,
+     "coherence": 0.819,
+     "input_level_dbfs": -90.1
+    },
+    {
+     "centre_hz": 8000,
+     "power_db": 0.01,
+     "coherent_db": -3.05,
+     "coherence": 0.405,
+     "input_level_dbfs": -99.55
+    },
+    {
+     "centre_hz": 16000,
+     "power_db": 0.38,
+     "coherent_db": -9.65,
+     "coherence": 0.102,
+     "input_level_dbfs": -101.19
+    }
+   ]
+  },
+  {
+   "capture": {
+    "file": "reamps/NR08_levels.wav",
+    "sha256": "e97ff309d996d1416d17c41ac8be844e847e5344259a5d2ab9ea5ad984ed5f4c",
+    "sample_rate": 44100,
+    "probe": "levels",
+    "tag": null,
+    "recorded": "2026-09-15",
+    "duration_s": 18.49,
+    "contaminated": null
+   },
+   "reference": {
+    "take_id": "NR01",
+    "file": "reamps/NR01_levels.wav",
+    "sha256": "66fdb33e1964fe942d57b6be2592cff319874460da778e9929a3043e55edd0ca"
+   },
+   "alignment": {
+    "lag_samples": -434,
+    "polarity_vs_reference": "same"
+   },
+   "peak_dbfs": {
+    "positive": -14.46,
+    "negative": -13.61
+   },
+   "steps": [
+    {
+     "input_frame_rms_dbfs": -53.41,
+     "gain_db": -0.2
+    },
+    {
+     "input_frame_rms_dbfs": -47.4,
+     "gain_db": -0.2
+    },
+    {
+     "input_frame_rms_dbfs": -41.41,
+     "gain_db": -0.19
+    },
+    {
+     "input_frame_rms_dbfs": -35.41,
+     "gain_db": -0.19
+    },
+    {
+     "input_frame_rms_dbfs": -29.41,
+     "gain_db": -0.19
+    },
+    {
+     "input_frame_rms_dbfs": -23.44,
+     "gain_db": -0.19
+    },
+    {
+     "input_frame_rms_dbfs": -19.5,
+     "gain_db": -0.2
+    },
+    {
+     "input_frame_rms_dbfs": -16.76,
+     "gain_db": -0.22
+    }
+   ]
+  }
+ ]
+}

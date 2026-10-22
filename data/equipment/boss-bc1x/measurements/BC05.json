@@ -1,0 +1,177 @@
+{
+ "schema": "rig-equipment/take@1",
+ "equipment": "boss-bc1x",
+ "take_id": "BC05",
+ "description": "Threshold: max",
+ "settings": {
+  "control": "Threshold",
+  "value": "max",
+  "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+  "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+ },
+ "captures": [
+  {
+   "capture": {
+    "file": "reamps/BC05_music_lad.wav",
+    "sha256": "204e90e679fe33b624583e8a28b2a490a337caba10d82f50c6356c8105bc4e63",
+    "probe": "music",
+    "tag": "lad",
+    "recorded": "2026-09-16",
+    "send_peak_dbfs": -23.0
+   },
+   "reference": {
+    "take_id": "BC15",
+    "file": "reamps/BC15_music_lad.wav",
+    "state": "every pedal bypassed",
+    "recorded": "2026-09-16",
+    "days_apart": 0.01
+   },
+   "alignment": {
+    "lag_samples": -25,
+    "polarity_vs_reference": "same"
+   },
+   "peak_dbfs": {
+    "positive": -13.65,
+    "negative": -10.04
+   },
+   "rms_gain_db": 6.09,
+   "frame_percentiles": {
+    "frame_ms": 5.0,
+    "reference_dbfs": {
+     "p1": -98.01,
+     "p10": -93.98,
+     "p25": -87.11,
+     "p50": -43.6,
+     "p75": -36.24,
+     "p95": -25.43
+    },
+    "change_db": {
+     "p1": 5.97,
+     "p10": 5.36,
+     "p25": 6.57,
+     "p50": 7.55,
+     "p75": 7.52,
+     "p95": 6.32
+    }
+   },
+   "frame_gain_db_by_class": {
+    "music": {
+     "frames": 27129,
+     "median": 7.38,
+     "p10": 4.99,
+     "p90": 9.14
+    },
+    "transition": {
+     "frames": 4534,
+     "median": 7.21,
+     "p10": 5.1,
+     "p90": 9.17
+    },
+    "rest": {
+     "frames": 12064,
+     "median": 5.93,
+     "p10": 2.37,
+     "p90": 9.27
+    }
+   },
+   "musical_frames_band_gain": [
+    {
+     "centre_hz": 31.5,
+     "power_db": 6.33,
+     "coherent_db": 6.16,
+     "coherence": 0.967,
+     "input_level_dbfs": -42.44
+    },
+    {
+     "centre_hz": 63,
+     "power_db": 6.24,
+     "coherent_db": 6.16,
+     "coherence": 0.987,
+     "input_level_dbfs": -35.92
+    },
+    {
+     "centre_hz": 125,
+     "power_db": 6.05,
+     "coherent_db": 5.93,
+     "coherence": 0.986,
+     "input_level_dbfs": -33.83
+    },
+    {
+     "centre_hz": 250,
+     "power_db": 4.92,
+     "coherent_db": 4.34,
+     "coherence": 0.778,
+     "input_level_dbfs": -42.72
+    },
+    {
+     "centre_hz": 500,
+     "power_db": 11.35,
+     "coherent_db": 8.81,
+     "coherence": 0.664,
+     "input_level_dbfs": -59.25
+    },
+    {
+     "centre_hz": 1000,
+     "power_db": 7.7,
+     "coherent_db": -0.76,
+     "coherence": 0.688,
+     "input_level_dbfs": -68.98
+    },
+    {
+     "centre_hz": 2000,
+     "power_db": 8.35,
+     "coherent_db": -2.99,
+     "coherence": 0.533,
+     "input_level_dbfs": -83.47
+    },
+    {
+     "centre_hz": 4000,
+     "power_db": 7.16,
+     "coherent_db": -8.88,
+     "coherence": 0.616,
+     "input_level_dbfs": -90.08
+    },
+    {
+     "centre_hz": 8000,
+     "power_db": 7.32,
+     "coherent_db": -7.57,
+     "coherence": 0.258,
+     "input_level_dbfs": -99.43
+    },
+    {
+     "centre_hz": 16000,
+     "power_db": 6.58,
+     "coherent_db": -6.31,
+     "coherence": 0.086,
+     "input_level_dbfs": -101.01
+    }
+   ]
+  },
+  {
+   "capture": {
+    "file": "reamps/BC05_plucks_lad.wav",
+    "sha256": "a0990da654f584d2c1fc13b26b37bb0bf0a6ac2b7f3dff5c2b18fecb810642ab",
+    "probe": "plucks",
+    "tag": "lad",
+    "recorded": "2026-09-16",
+    "send_peak_dbfs": -23.0
+   },
+   "peak_dbfs": {
+    "positive": -12.89,
+    "negative": -14.84
+   },
+   "envelope": "envelopes.npz: BC05/plucks_lad/*",
+   "reference": {
+    "take_id": "BC15",
+    "file": "reamps/BC15_plucks_lad.wav",
+    "state": "every pedal bypassed",
+    "recorded": "2026-09-16",
+    "days_apart": 0.01
+   },
+   "alignment": {
+    "lag_samples": -10,
+    "polarity_vs_reference": "same"
+   }
+  }
+ ]
+}

@@ -1,0 +1,269 @@
+{
+ "equipment": "ehx-deluxe-bass-big-muff",
+ "name": "EHX Deluxe Bass Big Muff",
+ "prefix": "MUFF",
+ "bypass_take": "MUFF01",
+ "settled_take": "MUFF02",
+ "settled": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)",
+ "takes": [
+  {
+   "take_id": "MUFF01",
+   "control": "(bypass reference)",
+   "value": "pedal bypassed entirely",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF02",
+   "control": "(settled)",
+   "value": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF03",
+   "control": "Tone x Sustain independence",
+   "value": "Tone min, Sustain min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF04",
+   "control": "Tone x Sustain independence",
+   "value": "Tone max, Sustain min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF05",
+   "control": "Tone x Sustain independence",
+   "value": "Tone min, Sustain max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF06",
+   "control": "Tone x Sustain independence",
+   "value": "Tone max, Sustain max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF07",
+   "control": "Sustain @ Blend MAX",
+   "value": "min, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF08",
+   "control": "Sustain @ Blend MAX",
+   "value": "9:00, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF09",
+   "control": "Sustain @ Blend MAX",
+   "value": "3:00, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF10",
+   "control": "Sustain @ Blend MAX",
+   "value": "max, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF11",
+   "control": "Tone @ Blend MAX",
+   "value": "min, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF12",
+   "control": "Tone @ Blend MAX",
+   "value": "9:00, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF13",
+   "control": "Tone @ Blend MAX",
+   "value": "12:00, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF14",
+   "control": "Blend",
+   "value": "min (dry)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF15",
+   "control": "Blend",
+   "value": "12:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MUFF16",
+   "control": "Blend",
+   "value": "max (wet)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF17",
+   "control": "Gate",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF18",
+   "control": "Gate",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF19",
+   "control": "Crossover engage",
+   "value": "engaged at settled HPF 11:00 / LPF 2:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF20",
+   "control": "Crossover HPF",
+   "value": "min, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MUFF21",
+   "control": "Crossover HPF",
+   "value": "max, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MUFF22",
+   "control": "Crossover LPF",
+   "value": "min, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MUFF23",
+   "control": "Crossover LPF",
+   "value": "max, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MUFF24",
+   "control": "Volume",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MUFF25",
+   "control": "Volume",
+   "value": "12:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "MUFF26",
+   "control": "Tone x Sustain at Blend MAX",
+   "value": "Tone min, Sustain min, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF27",
+   "control": "Tone x Sustain at Blend MAX",
+   "value": "Tone max, Sustain min, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF28",
+   "control": "Tone x Sustain at Blend MAX",
+   "value": "Tone min, Sustain max, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF29",
+   "control": "Tone x Sustain at Blend MAX",
+   "value": "Tone max, Sustain max, Blend max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF30",
+   "control": "Crossover x Blend",
+   "value": "crossover ENGAGED at settled HPF 11:00 / LPF 2:00, Blend min (dry)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF31",
+   "control": "Crossover x Blend",
+   "value": "crossover ENGAGED at settled HPF 11:00 / LPF 2:00, Blend max (wet)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF32",
+   "control": "Crossover HPF travel",
+   "value": "HPF min, Blend max, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF33",
+   "control": "Crossover HPF travel",
+   "value": "HPF max, Blend max, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF34",
+   "control": "Crossover LPF travel",
+   "value": "LPF min, Blend min, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF35",
+   "control": "Crossover LPF travel",
+   "value": "LPF max, Blend min, crossover engaged",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF36",
+   "control": "Blend taper",
+   "value": "9:00, everything else settled",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "MUFF37",
+   "control": "Blend taper",
+   "value": "3:00, everything else settled",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  }
+ ]
+}

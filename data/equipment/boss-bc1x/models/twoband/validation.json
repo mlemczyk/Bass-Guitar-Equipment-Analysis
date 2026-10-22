@@ -1,0 +1,43 @@
+{
+ "this_port": {
+  "music": {
+   "role": "fitted (dynamics)",
+   "envelope_rms_db_played_frames": 1.847,
+   "crest_error_db": 0.96,
+   "level_error_db": -0.753
+  },
+  "plucks": {
+   "role": "held out",
+   "envelope_rms_db_played_frames": 1.141,
+   "crest_error_db": 0.135,
+   "level_error_db": -1.105
+  }
+ },
+ "source_project_fit": {
+  "ladder_rms_db": {
+   "one": 2.5007222735789507,
+   "two": 0.9146259196287798,
+   "three": 0.639882506720174
+  },
+  "three_band_crossovers_hz": [
+   277.4191114672182,
+   547.7225575051663
+  ],
+  "music_env_rms_db": 1.8468079858541053,
+  "plucks_env_rms_db": 1.1412962806131668,
+  "crest_err_db": {
+   "music": 0.9601894450513555,
+   "plucks": 0.13526761441186608
+  },
+  "band_balance_rms_db": {
+   "two_band": 1.4324087748360794,
+   "broadband_fine": 5.579528765178026
+  },
+  "bc07_ladder_rms_db": 1.1769420381245006,
+  "notes": {
+   "ladder_rms_db": "static-curve fit error on the ess_ladder with one, two, three bands",
+   "band_balance_rms_db": "error in the per-band balance on music: two-band vs the broadband model",
+   "bc07_ladder_rms_db": "BC07 (Ratio 3:00) ladder predicted by refitting the ratio only"
+  }
+ }
+}

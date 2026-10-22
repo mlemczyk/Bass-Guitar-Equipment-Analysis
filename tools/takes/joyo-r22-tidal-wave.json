@@ -1,0 +1,248 @@
+{
+ "equipment": "joyo-r22-tidal-wave",
+ "name": "Joyo R-22 Tidal Wave",
+ "prefix": "TW",
+ "bypass_take": "TW01",
+ "settled_take": "TW02",
+ "settled": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00",
+ "takes": [
+  {
+   "take_id": "TW01",
+   "control": "(bypass reference)",
+   "value": "pedal bypassed entirely",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW02",
+   "control": "(settled)",
+   "value": "Presence 12, Treble 12, Mid 12 @500Hz, Bass 12 @40Hz, Drive 9, Blend 12, Level 12",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW03",
+   "control": "Drive",
+   "value": "7:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW04",
+   "control": "Drive",
+   "value": "11:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW05",
+   "control": "Drive",
+   "value": "1:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW06",
+   "control": "Drive",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW07",
+   "control": "Blend",
+   "value": "min (dry)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW08",
+   "control": "Blend",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW09",
+   "control": "Blend",
+   "value": "max (wet)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW10",
+   "control": "Presence",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW11",
+   "control": "Presence",
+   "value": "9:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW12",
+   "control": "Presence",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW13",
+   "control": "Presence",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW14",
+   "control": "Treble",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW15",
+   "control": "Treble",
+   "value": "9:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW16",
+   "control": "Treble",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW17",
+   "control": "Treble",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW18",
+   "control": "Middle level",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW19",
+   "control": "Middle level",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW20",
+   "control": "Middle level",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW21",
+   "control": "Middle freq",
+   "value": "switch to 1kHz @ Middle level max (settled position is 500Hz)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW22",
+   "control": "Bass level",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW23",
+   "control": "Bass level",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW24",
+   "control": "Bass level",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW25",
+   "control": "Bass freq",
+   "value": "switch to 80Hz @ Bass level max (settled position is 40Hz)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW26",
+   "control": "Level",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW27",
+   "control": "Level",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW28",
+   "control": "Tone-stack placement",
+   "value": "Treble max at Blend MIN (fully dry)",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW29",
+   "control": "Drive @ Blend MAX",
+   "value": "7:00, Blend fully wet",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW30",
+   "control": "Drive @ Blend MAX",
+   "value": "11:00, Blend fully wet",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW31",
+   "control": "Drive @ Blend MAX",
+   "value": "1:00, Blend fully wet",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW32",
+   "control": "Drive @ Blend MAX",
+   "value": "max, Blend fully wet",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW33",
+   "control": "Superposition: Presence x Treble",
+   "value": "Presence min AND Treble max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "TW34",
+   "control": "Superposition: the 5-knob candidate",
+   "value": "Presence min, Treble max, MiddleLevel 3:00, BassLevel max, Level max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  }
+ ]
+}

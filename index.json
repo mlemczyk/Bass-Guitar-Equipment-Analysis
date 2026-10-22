@@ -1,0 +1,5059 @@
+{
+ "schema": "rig-equipment/index@1",
+ "equipment": {
+  "behringer-nr300": {
+   "readme": "data/equipment/behringer-nr300/README.md",
+   "findings": "data/equipment/behringer-nr300/findings.md",
+   "n_takes": 8,
+   "takes": [
+    {
+     "take_id": "NR01",
+     "description": "noise reduction OFF, gate held open: the reference",
+     "settings": {
+      "noise_reduction": "off",
+      "threshold": null,
+      "decay": null
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR01.json",
+     "captures": [
+      {
+       "file": "reamps/NR01_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR01_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    },
+    {
+     "take_id": "NR02",
+     "description": "Threshold 9:00, Decay 7:00",
+     "settings": {
+      "noise_reduction": "on",
+      "threshold": "9:00",
+      "decay": "7:00"
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR02.json",
+     "captures": [
+      {
+       "file": "reamps/NR02_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR02_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    },
+    {
+     "take_id": "NR03",
+     "description": "Threshold min, Decay 7:00",
+     "settings": {
+      "noise_reduction": "on",
+      "threshold": "min",
+      "decay": "7:00"
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR03.json",
+     "captures": [
+      {
+       "file": "reamps/NR03_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR03_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    },
+    {
+     "take_id": "NR04",
+     "description": "Threshold 12:00, Decay 7:00",
+     "settings": {
+      "noise_reduction": "on",
+      "threshold": "12:00",
+      "decay": "7:00"
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR04.json",
+     "captures": [
+      {
+       "file": "reamps/NR04_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR04_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    },
+    {
+     "take_id": "NR05",
+     "description": "Threshold 3:00, Decay 7:00",
+     "settings": {
+      "noise_reduction": "on",
+      "threshold": "3:00",
+      "decay": "7:00"
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR05.json",
+     "captures": [
+      {
+       "file": "reamps/NR05_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR05_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    },
+    {
+     "take_id": "NR06",
+     "description": "Threshold max, Decay 7:00",
+     "settings": {
+      "noise_reduction": "on",
+      "threshold": "max",
+      "decay": "7:00"
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR06.json",
+     "captures": [
+      {
+       "file": "reamps/NR06_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR06_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    },
+    {
+     "take_id": "NR07",
+     "description": "Threshold 9:00, Decay 12:00",
+     "settings": {
+      "noise_reduction": "on",
+      "threshold": "9:00",
+      "decay": "12:00"
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR07.json",
+     "captures": [
+      {
+       "file": "reamps/NR07_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR07_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    },
+    {
+     "take_id": "NR08",
+     "description": "Threshold 9:00, Decay max",
+     "settings": {
+      "noise_reduction": "on",
+      "threshold": "9:00",
+      "decay": "max"
+     },
+     "path": "data/equipment/behringer-nr300/measurements/NR08.json",
+     "captures": [
+      {
+       "file": "reamps/NR08_music.wav",
+       "probe": "music",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      },
+      {
+       "file": "reamps/NR08_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "NR01"
+      }
+     ]
+    }
+   ],
+   "datasets": [],
+   "envelopes": "data/equipment/behringer-nr300/measurements/envelopes.npz",
+   "models": [
+    {
+     "name": "expander",
+     "path": "data/equipment/behringer-nr300/models/expander",
+     "has_validation": true
+    }
+   ]
+  },
+  "boss-bc1x": {
+   "readme": "data/equipment/boss-bc1x/README.md",
+   "findings": "data/equipment/boss-bc1x/findings.md",
+   "n_takes": 12,
+   "takes": [
+    {
+     "take_id": "BC01",
+     "description": "(reference): settled: Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00",
+     "settings": {
+      "control": "(reference)",
+      "value": "settled: Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC01.json",
+     "captures": [
+      {
+       "file": "reamps/BC01_bursts_lad.wav",
+       "probe": "bursts",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC01_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/BC01_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/BC01_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC01_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC01_twotone_lad.wav",
+       "probe": "twotone",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "BC02",
+     "description": "Threshold: min",
+     "settings": {
+      "control": "Threshold",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC02.json",
+     "captures": [
+      {
+       "file": "reamps/BC02_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC02_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC03",
+     "description": "Threshold: 9:00",
+     "settings": {
+      "control": "Threshold",
+      "value": "9:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC03.json",
+     "captures": [
+      {
+       "file": "reamps/BC03_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC03_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC04",
+     "description": "Threshold: 3:00",
+     "settings": {
+      "control": "Threshold",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC04.json",
+     "captures": [
+      {
+       "file": "reamps/BC04_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC04_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC05",
+     "description": "Threshold: max",
+     "settings": {
+      "control": "Threshold",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC05.json",
+     "captures": [
+      {
+       "file": "reamps/BC05_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC05_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC06",
+     "description": "Ratio: min",
+     "settings": {
+      "control": "Ratio",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC06.json",
+     "captures": [
+      {
+       "file": "reamps/BC06_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC06_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC07",
+     "description": "Ratio: 3:00",
+     "settings": {
+      "control": "Ratio",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC07.json",
+     "captures": [
+      {
+       "file": "reamps/BC07_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-29",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC08",
+     "description": "Ratio: max",
+     "settings": {
+      "control": "Ratio",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC08.json",
+     "captures": [
+      {
+       "file": "reamps/BC08_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC08_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC09",
+     "description": "Release: min",
+     "settings": {
+      "control": "Release",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC09.json",
+     "captures": [
+      {
+       "file": "reamps/BC09_bursts_lad.wav",
+       "probe": "bursts",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC09_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC09_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC10",
+     "description": "Release: 3:00",
+     "settings": {
+      "control": "Release",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC10.json",
+     "captures": [
+      {
+       "file": "reamps/BC10_bursts_lad.wav",
+       "probe": "bursts",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC10_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC10_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC11",
+     "description": "Release: max",
+     "settings": {
+      "control": "Release",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC11.json",
+     "captures": [
+      {
+       "file": "reamps/BC11_bursts_lad.wav",
+       "probe": "bursts",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC11_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/BC11_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "BC15",
+     "description": "(bypass reference): pedal bypassed entirely",
+     "settings": {
+      "control": "(bypass reference)",
+      "value": "pedal bypassed entirely",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00"
+     },
+     "path": "data/equipment/boss-bc1x/measurements/BC15.json",
+     "captures": [
+      {
+       "file": "reamps/BC15_bursts_lad.wav",
+       "probe": "bursts",
+       "recorded": "2026-09-28",
+       "superseded": false,
+       "reference": null
+      },
+      {
+       "file": "reamps/BC15_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-28",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/BC15_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    }
+   ],
+   "datasets": [],
+   "envelopes": "data/equipment/boss-bc1x/measurements/envelopes.npz",
+   "models": [
+    {
+     "name": "twoband",
+     "path": "data/equipment/boss-bc1x/models/twoband",
+     "has_validation": true
+    }
+   ]
+  },
+  "donner-eq-seeker": {
+   "readme": "data/equipment/donner-eq-seeker/README.md",
+   "findings": "data/equipment/donner-eq-seeker/findings.md",
+   "n_takes": 28,
+   "takes": [
+    {
+     "take_id": "SEEK01",
+     "description": "bypass reference",
+     "settings": {
+      "engaged": false,
+      "level_slider": null,
+      "band_sliders": null
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK01.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK01_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK02",
+     "description": "engaged, every slider at 0: the flat reference",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK02.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK02_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK01"
+      },
+      {
+       "file": "reamps/SEEK02_ess_ladder_lad1018.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-10-18",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK03",
+     "description": "31.25Hz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 5,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK03.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK03_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK03_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK03_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK04",
+     "description": "62.5Hz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 5,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK04.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK04_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK04_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK04_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK05",
+     "description": "125Hz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 5,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK05.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK05_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK05_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK05_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK06",
+     "description": "250Hz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 5,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK06.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK06_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK06_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK06_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK07",
+     "description": "500Hz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 5,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK07.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK07_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK07_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK07_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK08",
+     "description": "1kHz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 5,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK08.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK08_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK08_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK08_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK09",
+     "description": "2kHz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 5,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK09.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK09_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK09_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK09_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK10",
+     "description": "4kHz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 5,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK10.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK10_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK10_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK10_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK11",
+     "description": "8kHz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 5,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK11.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK11_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK11_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK11_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK12",
+     "description": "16kHz slider at +5, others 0",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 5
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK12.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK12_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK12_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK12_ess_lin.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK13",
+     "description": "125Hz at -5",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": -5,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK13.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK13_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK14",
+     "description": "1kHz at -5",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": -5,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK14.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK14_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK15",
+     "description": "500/1k/2k at -2",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": -2,
+       "1k": -2,
+       "2k": -2,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK15.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK15_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK15_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK16",
+     "description": "125+250 at -5",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": -5,
+       "250": -5,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK16.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK16_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK16_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK17",
+     "description": "all ten bands at +2",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 2,
+       "62.5": 2,
+       "125": 2,
+       "250": 2,
+       "500": 2,
+       "1k": 2,
+       "2k": 2,
+       "4k": 2,
+       "8k": 2,
+       "16k": 2
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK17.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK17_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": true,
+       "reference": "SEEK02"
+      },
+      {
+       "file": "reamps/SEEK17_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK18",
+     "description": "Level slider +5",
+     "settings": {
+      "engaged": true,
+      "level_slider": 5,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK18.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK18_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK19",
+     "description": "Level slider -5",
+     "settings": {
+      "engaged": true,
+      "level_slider": -5,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK19.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK19_ess.wav",
+       "probe": "ess",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK20",
+     "description": "flat, levels probe (linearity reference)",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK20.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK20_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK21",
+     "description": "500Hz at -2 (taper)",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": -2,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK21.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK21_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK22",
+     "description": "500Hz at +2 (taper)",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": 2,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK22.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK22_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK23",
+     "description": "125Hz at +5, levels probe (boost compression)",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 5,
+       "250": 0,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK23.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK23_levels.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK24",
+     "description": "500/1k/2k at -3",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": -3,
+       "1k": -3,
+       "2k": -3,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK24.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK24_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK25",
+     "description": "500/1k/2k at -4",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": 0,
+       "250": 0,
+       "500": -4,
+       "1k": -4,
+       "2k": -4,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK25.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK25_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK27",
+     "description": "125+250 at -2",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": -2,
+       "250": -2,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK27.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK27_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK28",
+     "description": "125+250 at -3",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": -3,
+       "250": -3,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK28.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK28_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    },
+    {
+     "take_id": "SEEK29",
+     "description": "125+250 at -4 (2026-10-18 session)",
+     "settings": {
+      "engaged": true,
+      "level_slider": 0,
+      "band_sliders": {
+       "31.25": 0,
+       "62.5": 0,
+       "125": -4,
+       "250": -4,
+       "500": 0,
+       "1k": 0,
+       "2k": 0,
+       "4k": 0,
+       "8k": 0,
+       "16k": 0
+      }
+     },
+     "path": "data/equipment/donner-eq-seeker/measurements/SEEK29.json",
+     "captures": [
+      {
+       "file": "reamps/SEEK29_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-10-18",
+       "superseded": false,
+       "reference": "SEEK02"
+      }
+     ]
+    }
+   ],
+   "datasets": [],
+   "envelopes": null,
+   "models": [
+    {
+     "name": "graphic_eq",
+     "path": "data/equipment/donner-eq-seeker/models/graphic_eq",
+     "has_validation": true
+    }
+   ]
+  },
+  "ehx-deluxe-bass-big-muff": {
+   "readme": "data/equipment/ehx-deluxe-bass-big-muff/README.md",
+   "findings": "data/equipment/ehx-deluxe-bass-big-muff/findings.md",
+   "n_takes": 30,
+   "takes": [
+    {
+     "take_id": "MUFF01",
+     "description": "(bypass reference): pedal bypassed entirely",
+     "settings": {
+      "control": "(bypass reference)",
+      "value": "pedal bypassed entirely",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF01.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF01_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF02",
+     "description": "(settled): Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out",
+     "settings": {
+      "control": "(settled)",
+      "value": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF02.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF02_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF02_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF02_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF03",
+     "description": "Tone x Sustain independence: Tone min, Sustain min",
+     "settings": {
+      "control": "Tone x Sustain independence",
+      "value": "Tone min, Sustain min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF03.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF03_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF04",
+     "description": "Tone x Sustain independence: Tone max, Sustain min",
+     "settings": {
+      "control": "Tone x Sustain independence",
+      "value": "Tone max, Sustain min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF04.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF04_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF05",
+     "description": "Tone x Sustain independence: Tone min, Sustain max",
+     "settings": {
+      "control": "Tone x Sustain independence",
+      "value": "Tone min, Sustain max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF05.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF05_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF05_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF06",
+     "description": "Tone x Sustain independence: Tone max, Sustain max",
+     "settings": {
+      "control": "Tone x Sustain independence",
+      "value": "Tone max, Sustain max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF06.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF06_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF06_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF07",
+     "description": "Sustain @ Blend MAX: min, Blend max",
+     "settings": {
+      "control": "Sustain @ Blend MAX",
+      "value": "min, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF07.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF07_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF07_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF08",
+     "description": "Sustain @ Blend MAX: 9:00, Blend max",
+     "settings": {
+      "control": "Sustain @ Blend MAX",
+      "value": "9:00, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF08.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF08_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF08_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF09",
+     "description": "Sustain @ Blend MAX: 3:00, Blend max",
+     "settings": {
+      "control": "Sustain @ Blend MAX",
+      "value": "3:00, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF09.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF09_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF09_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF10",
+     "description": "Sustain @ Blend MAX: max, Blend max",
+     "settings": {
+      "control": "Sustain @ Blend MAX",
+      "value": "max, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF10.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF10_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF10_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF11",
+     "description": "Tone @ Blend MAX: min, Blend max",
+     "settings": {
+      "control": "Tone @ Blend MAX",
+      "value": "min, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF11.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF11_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF11_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF11_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      },
+      {
+       "file": "reamps/MUFF11_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF12",
+     "description": "Tone @ Blend MAX: 9:00, Blend max",
+     "settings": {
+      "control": "Tone @ Blend MAX",
+      "value": "9:00, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF12.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF12_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF12_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF13",
+     "description": "Tone @ Blend MAX: 12:00, Blend max",
+     "settings": {
+      "control": "Tone @ Blend MAX",
+      "value": "12:00, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF13.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF13_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF13_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF14",
+     "description": "Blend: min (dry)",
+     "settings": {
+      "control": "Blend",
+      "value": "min (dry)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF14.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF14_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF14_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF16",
+     "description": "Blend: max (wet)",
+     "settings": {
+      "control": "Blend",
+      "value": "max (wet)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF16.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF16_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF16_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF16_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF17",
+     "description": "Gate: min",
+     "settings": {
+      "control": "Gate",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF17.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF17_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF17_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF18",
+     "description": "Gate: max",
+     "settings": {
+      "control": "Gate",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF18.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF18_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF18_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF19",
+     "description": "Crossover engage: engaged at settled HPF 11:00 / LPF 2:00",
+     "settings": {
+      "control": "Crossover engage",
+      "value": "engaged at settled HPF 11:00 / LPF 2:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF19.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF19_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF19_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF19_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF26",
+     "description": "Tone x Sustain at Blend MAX: Tone min, Sustain min, Blend max",
+     "settings": {
+      "control": "Tone x Sustain at Blend MAX",
+      "value": "Tone min, Sustain min, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF26.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF26_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF27",
+     "description": "Tone x Sustain at Blend MAX: Tone max, Sustain min, Blend max",
+     "settings": {
+      "control": "Tone x Sustain at Blend MAX",
+      "value": "Tone max, Sustain min, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF27.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF27_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF28",
+     "description": "Tone x Sustain at Blend MAX: Tone min, Sustain max, Blend max",
+     "settings": {
+      "control": "Tone x Sustain at Blend MAX",
+      "value": "Tone min, Sustain max, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF28.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF28_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MUFF28_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF29",
+     "description": "Tone x Sustain at Blend MAX: Tone max, Sustain max, Blend max",
+     "settings": {
+      "control": "Tone x Sustain at Blend MAX",
+      "value": "Tone max, Sustain max, Blend max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF29.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF29_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF30",
+     "description": "Crossover x Blend: crossover ENGAGED at settled HPF 11:00 / LPF 2:00, Blend min (dry)",
+     "settings": {
+      "control": "Crossover x Blend",
+      "value": "crossover ENGAGED at settled HPF 11:00 / LPF 2:00, Blend min (dry)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF30.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF30_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF30_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF31",
+     "description": "Crossover x Blend: crossover ENGAGED at settled HPF 11:00 / LPF 2:00, Blend max (wet)",
+     "settings": {
+      "control": "Crossover x Blend",
+      "value": "crossover ENGAGED at settled HPF 11:00 / LPF 2:00, Blend max (wet)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF31.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF31_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF31_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF32",
+     "description": "Crossover HPF travel: HPF min, Blend max, crossover engaged",
+     "settings": {
+      "control": "Crossover HPF travel",
+      "value": "HPF min, Blend max, crossover engaged",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF32.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF32_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF32_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF33",
+     "description": "Crossover HPF travel: HPF max, Blend max, crossover engaged",
+     "settings": {
+      "control": "Crossover HPF travel",
+      "value": "HPF max, Blend max, crossover engaged",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF33.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF33_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF33_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF34",
+     "description": "Crossover LPF travel: LPF min, Blend min, crossover engaged",
+     "settings": {
+      "control": "Crossover LPF travel",
+      "value": "LPF min, Blend min, crossover engaged",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF34.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF34_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF34_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF35",
+     "description": "Crossover LPF travel: LPF max, Blend min, crossover engaged",
+     "settings": {
+      "control": "Crossover LPF travel",
+      "value": "LPF max, Blend min, crossover engaged",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF35.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF35_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MUFF35_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF36",
+     "description": "Blend taper: 9:00, everything else settled",
+     "settings": {
+      "control": "Blend taper",
+      "value": "9:00, everything else settled",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF36.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF36_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MUFF37",
+     "description": "Blend taper: 3:00, everything else settled",
+     "settings": {
+      "control": "Blend taper",
+      "value": "3:00, everything else settled",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Tone 5:00, Sustain 12:00, Blend 12:00, Volume 5:00, Gate 9:00, Crossover out (HPF 11:00, LPF 2:00 when engaged)"
+     },
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/measurements/MUFF37.json",
+     "captures": [
+      {
+       "file": "reamps/MUFF37_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    }
+   ],
+   "datasets": [],
+   "envelopes": "data/equipment/ehx-deluxe-bass-big-muff/measurements/envelopes.npz",
+   "models": [
+    {
+     "name": "circuit",
+     "path": "data/equipment/ehx-deluxe-bass-big-muff/models/circuit",
+     "has_validation": true
+    }
+   ]
+  },
+  "emg-bqc": {
+   "readme": "data/equipment/emg-bqc/README.md",
+   "findings": "data/equipment/emg-bqc/findings.md",
+   "n_takes": 23,
+   "takes": [
+    {
+     "take_id": "H01",
+     "description": "Bass -5",
+     "settings": {
+      "bass": -5,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H01.json",
+     "captures": [
+      {
+       "file": "raw_takes/H01_bass_m5.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H02",
+     "description": "Bass -2",
+     "settings": {
+      "bass": -2,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H02.json",
+     "captures": [
+      {
+       "file": "raw_takes/H02_bass_m2.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H03",
+     "description": "Bass +2",
+     "settings": {
+      "bass": 2,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H03.json",
+     "captures": [
+      {
+       "file": "raw_takes/H03_bass_p2.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H04",
+     "description": "Bass +5",
+     "settings": {
+      "bass": 5,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H04.json",
+     "captures": [
+      {
+       "file": "raw_takes/H04_bass_p5.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H05",
+     "description": "Treble -5",
+     "settings": {
+      "bass": 0,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": -5,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H05.json",
+     "captures": [
+      {
+       "file": "raw_takes/H05_treble_m5.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H06",
+     "description": "Treble -2",
+     "settings": {
+      "bass": 0,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": -2,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H06.json",
+     "captures": [
+      {
+       "file": "raw_takes/H06_treble_m2.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H07",
+     "description": "Treble +2",
+     "settings": {
+      "bass": 0,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": 2,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H07.json",
+     "captures": [
+      {
+       "file": "raw_takes/H07_treble_p2.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H08",
+     "description": "Treble +5",
+     "settings": {
+      "bass": 0,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": 5,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H08.json",
+     "captures": [
+      {
+       "file": "raw_takes/H08_treble_p5.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H09",
+     "description": "Mid -5 at MidFreq -5",
+     "settings": {
+      "bass": 0,
+      "mid": -5,
+      "midfreq": -5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H09.json",
+     "captures": [
+      {
+       "file": "raw_takes/H09_mid_midfreq_m5_m5_100hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H10",
+     "description": "Mid -2 at MidFreq -5",
+     "settings": {
+      "bass": 0,
+      "mid": -2,
+      "midfreq": -5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H10.json",
+     "captures": [
+      {
+       "file": "raw_takes/H10_mid_midfreq_m5_m2_100hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H11",
+     "description": "Mid +2 at MidFreq -5",
+     "settings": {
+      "bass": 0,
+      "mid": 2,
+      "midfreq": -5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H11.json",
+     "captures": [
+      {
+       "file": "raw_takes/H11_mid_midfreq_m5_p2_100hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H12",
+     "description": "Mid +5 at MidFreq -5",
+     "settings": {
+      "bass": 0,
+      "mid": 5,
+      "midfreq": -5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H12.json",
+     "captures": [
+      {
+       "file": "raw_takes/H12_mid_midfreq_m5_p5_100hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H13",
+     "description": "Mid -5 at MidFreq +0",
+     "settings": {
+      "bass": 0,
+      "mid": -5,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H13.json",
+     "captures": [
+      {
+       "file": "raw_takes/H13_mid_midfreq_0_m5_300m400hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H14",
+     "description": "Mid -2 at MidFreq +0",
+     "settings": {
+      "bass": 0,
+      "mid": -2,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H14.json",
+     "captures": [
+      {
+       "file": "raw_takes/H14_mid_midfreq_0_m2_300m400hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H15",
+     "description": "Mid +2 at MidFreq +0",
+     "settings": {
+      "bass": 0,
+      "mid": 2,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H15.json",
+     "captures": [
+      {
+       "file": "raw_takes/H15_mid_midfreq_0_p2_300m400hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H16",
+     "description": "Mid +5 at MidFreq +0",
+     "settings": {
+      "bass": 0,
+      "mid": 5,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H16.json",
+     "captures": [
+      {
+       "file": "raw_takes/H16_mid_midfreq_0_p5_300m400hz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H17",
+     "description": "Mid -5 at MidFreq +5",
+     "settings": {
+      "bass": 0,
+      "mid": -5,
+      "midfreq": 5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H17.json",
+     "captures": [
+      {
+       "file": "raw_takes/H17_mid_midfreq_p5_m5_1khz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H18",
+     "description": "Mid -2 at MidFreq +5",
+     "settings": {
+      "bass": 0,
+      "mid": -2,
+      "midfreq": 5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H18.json",
+     "captures": [
+      {
+       "file": "raw_takes/H18_mid_midfreq_p5_m2_1khz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H19",
+     "description": "Mid +2 at MidFreq +5",
+     "settings": {
+      "bass": 0,
+      "mid": 2,
+      "midfreq": 5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H19.json",
+     "captures": [
+      {
+       "file": "raw_takes/H19_mid_midfreq_p5_p2_1khz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H20",
+     "description": "Mid +5 at MidFreq +5",
+     "settings": {
+      "bass": 0,
+      "mid": 5,
+      "midfreq": 5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H20.json",
+     "captures": [
+      {
+       "file": "raw_takes/H20_mid_midfreq_p5_p5_1khz.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H21",
+     "description": "Mid +5 at MidFreq -2.5",
+     "settings": {
+      "bass": 0,
+      "mid": 5,
+      "midfreq": -2.5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H21.json",
+     "captures": [
+      {
+       "file": "raw_takes/H21_midfreq_taper_fill_midfreq_m2.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H22",
+     "description": "Mid +5 at MidFreq +2.5",
+     "settings": {
+      "bass": 0,
+      "mid": 5,
+      "midfreq": 2.5,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H22.json",
+     "captures": [
+      {
+       "file": "raw_takes/H22_midfreq_taper_fill_midfreq_p2.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    },
+    {
+     "take_id": "H99",
+     "description": "closing reference (= H00) +0",
+     "settings": {
+      "bass": 0,
+      "mid": 0,
+      "midfreq": 0,
+      "treble": 0,
+      "pickup_pan": 0,
+      "treble_dip_sw1_sw2": "OFF/OFF"
+     },
+     "path": "data/equipment/emg-bqc/measurements/H99.json",
+     "captures": [
+      {
+       "file": "raw_takes/H99_closing_reference_identical_to.wav",
+       "probe": "emg_sweep (magnetic injection)",
+       "recorded": "2026-09-13",
+       "superseded": false,
+       "reference": "H00"
+      }
+     ]
+    }
+   ],
+   "datasets": [],
+   "envelopes": null,
+   "models": []
+  },
+  "instrument-trbx305": {
+   "readme": "data/equipment/instrument-trbx305/README.md",
+   "findings": "data/equipment/instrument-trbx305/findings.md",
+   "n_takes": 0,
+   "takes": [],
+   "datasets": [
+    {
+     "path": "data/equipment/instrument-trbx305/measurements/string_decay.json",
+     "schema": "rig-equipment/partial-decay@1",
+     "description": "Exponential decay rate of each partial of each played note, fitted on its frame envelope. 3,313+ fits."
+    }
+   ],
+   "envelopes": null,
+   "models": []
+  },
+  "joyo-r22-tidal-wave": {
+   "readme": "data/equipment/joyo-r22-tidal-wave/README.md",
+   "findings": "data/equipment/joyo-r22-tidal-wave/findings.md",
+   "n_takes": 34,
+   "takes": [
+    {
+     "take_id": "TW01",
+     "description": "(bypass reference): pedal bypassed entirely",
+     "settings": {
+      "control": "(bypass reference)",
+      "value": "pedal bypassed entirely",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW01.json",
+     "captures": [
+      {
+       "file": "reamps/TW01_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW02",
+     "description": "(settled): Presence 12, Treble 12, Mid 12 @500Hz, Bass 12 @40Hz, Drive 9, Blend 12, Level 12",
+     "settings": {
+      "control": "(settled)",
+      "value": "Presence 12, Treble 12, Mid 12 @500Hz, Bass 12 @40Hz, Drive 9, Blend 12, Level 12",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW02.json",
+     "captures": [
+      {
+       "file": "reamps/TW02_bursts_lad.wav",
+       "probe": "bursts",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/TW02_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW02_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW02_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW02_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/TW02_plucks_lad.wav",
+       "probe": "plucks",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "BC15"
+      },
+      {
+       "file": "reamps/TW02_twotone_lad.wav",
+       "probe": "twotone",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW03",
+     "description": "Drive: 7:00",
+     "settings": {
+      "control": "Drive",
+      "value": "7:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW03.json",
+     "captures": [
+      {
+       "file": "reamps/TW03_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW03_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW04",
+     "description": "Drive: 11:00",
+     "settings": {
+      "control": "Drive",
+      "value": "11:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW04.json",
+     "captures": [
+      {
+       "file": "reamps/TW04_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW04_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW05",
+     "description": "Drive: 1:00",
+     "settings": {
+      "control": "Drive",
+      "value": "1:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW05.json",
+     "captures": [
+      {
+       "file": "reamps/TW05_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW05_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW06",
+     "description": "Drive: max",
+     "settings": {
+      "control": "Drive",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW06.json",
+     "captures": [
+      {
+       "file": "reamps/TW06_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW06_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-15",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW06_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "TW07",
+     "description": "Blend: min (dry)",
+     "settings": {
+      "control": "Blend",
+      "value": "min (dry)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW07.json",
+     "captures": [
+      {
+       "file": "reamps/TW07_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW07_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW07_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW07_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW08",
+     "description": "Blend: 3:00",
+     "settings": {
+      "control": "Blend",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW08.json",
+     "captures": [
+      {
+       "file": "reamps/TW08_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW08_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW08_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW08_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW09",
+     "description": "Blend: max (wet)",
+     "settings": {
+      "control": "Blend",
+      "value": "max (wet)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW09.json",
+     "captures": [
+      {
+       "file": "reamps/TW09_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW09_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW09_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW09_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW10",
+     "description": "Presence: min",
+     "settings": {
+      "control": "Presence",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW10.json",
+     "captures": [
+      {
+       "file": "reamps/TW10_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW10_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW10_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW10_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW11",
+     "description": "Presence: 9:00",
+     "settings": {
+      "control": "Presence",
+      "value": "9:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW11.json",
+     "captures": [
+      {
+       "file": "reamps/TW11_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW11_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW11_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW11_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW12",
+     "description": "Presence: 3:00",
+     "settings": {
+      "control": "Presence",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW12.json",
+     "captures": [
+      {
+       "file": "reamps/TW12_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW12_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW12_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW12_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW13",
+     "description": "Presence: max",
+     "settings": {
+      "control": "Presence",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW13.json",
+     "captures": [
+      {
+       "file": "reamps/TW13_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW13_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      },
+      {
+       "file": "reamps/TW13_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/TW13_levels_lad30.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "TW14",
+     "description": "Treble: min",
+     "settings": {
+      "control": "Treble",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW14.json",
+     "captures": [
+      {
+       "file": "reamps/TW14_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW14_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW15",
+     "description": "Treble: 9:00",
+     "settings": {
+      "control": "Treble",
+      "value": "9:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW15.json",
+     "captures": [
+      {
+       "file": "reamps/TW15_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW15_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW16",
+     "description": "Treble: 3:00",
+     "settings": {
+      "control": "Treble",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW16.json",
+     "captures": [
+      {
+       "file": "reamps/TW16_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW16_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW17",
+     "description": "Treble: max",
+     "settings": {
+      "control": "Treble",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW17.json",
+     "captures": [
+      {
+       "file": "reamps/TW17_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW17_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW18",
+     "description": "Middle level: min",
+     "settings": {
+      "control": "Middle level",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW18.json",
+     "captures": [
+      {
+       "file": "reamps/TW18_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW18_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW19",
+     "description": "Middle level: 3:00",
+     "settings": {
+      "control": "Middle level",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW19.json",
+     "captures": [
+      {
+       "file": "reamps/TW19_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW19_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW20",
+     "description": "Middle level: max",
+     "settings": {
+      "control": "Middle level",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW20.json",
+     "captures": [
+      {
+       "file": "reamps/TW20_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW20_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW21",
+     "description": "Middle freq: switch to 1kHz @ Middle level max (settled position is 500Hz)",
+     "settings": {
+      "control": "Middle freq",
+      "value": "switch to 1kHz @ Middle level max (settled position is 500Hz)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW21.json",
+     "captures": [
+      {
+       "file": "reamps/TW21_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW21_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW22",
+     "description": "Bass level: min",
+     "settings": {
+      "control": "Bass level",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW22.json",
+     "captures": [
+      {
+       "file": "reamps/TW22_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW22_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW23",
+     "description": "Bass level: 3:00",
+     "settings": {
+      "control": "Bass level",
+      "value": "3:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW23.json",
+     "captures": [
+      {
+       "file": "reamps/TW23_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW23_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW24",
+     "description": "Bass level: max",
+     "settings": {
+      "control": "Bass level",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW24.json",
+     "captures": [
+      {
+       "file": "reamps/TW24_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW24_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW25",
+     "description": "Bass freq: switch to 80Hz @ Bass level max (settled position is 40Hz)",
+     "settings": {
+      "control": "Bass freq",
+      "value": "switch to 80Hz @ Bass level max (settled position is 40Hz)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW25.json",
+     "captures": [
+      {
+       "file": "reamps/TW25_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW25_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW26",
+     "description": "Level: min",
+     "settings": {
+      "control": "Level",
+      "value": "min",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW26.json",
+     "captures": [
+      {
+       "file": "reamps/TW26_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW27",
+     "description": "Level: max",
+     "settings": {
+      "control": "Level",
+      "value": "max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW27.json",
+     "captures": [
+      {
+       "file": "reamps/TW27_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW27_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW28",
+     "description": "Tone-stack placement: Treble max at Blend MIN (fully dry)",
+     "settings": {
+      "control": "Tone-stack placement",
+      "value": "Treble max at Blend MIN (fully dry)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW28.json",
+     "captures": [
+      {
+       "file": "reamps/TW28_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "TW01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW29",
+     "description": "Drive @ Blend MAX: 7:00, Blend fully wet",
+     "settings": {
+      "control": "Drive @ Blend MAX",
+      "value": "7:00, Blend fully wet",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW29.json",
+     "captures": [
+      {
+       "file": "reamps/TW29_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW29_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW30",
+     "description": "Drive @ Blend MAX: 11:00, Blend fully wet",
+     "settings": {
+      "control": "Drive @ Blend MAX",
+      "value": "11:00, Blend fully wet",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW30.json",
+     "captures": [
+      {
+       "file": "reamps/TW30_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW30_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW31",
+     "description": "Drive @ Blend MAX: 1:00, Blend fully wet",
+     "settings": {
+      "control": "Drive @ Blend MAX",
+      "value": "1:00, Blend fully wet",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW31.json",
+     "captures": [
+      {
+       "file": "reamps/TW31_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW31_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW32",
+     "description": "Drive @ Blend MAX: max, Blend fully wet",
+     "settings": {
+      "control": "Drive @ Blend MAX",
+      "value": "max, Blend fully wet",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW32.json",
+     "captures": [
+      {
+       "file": "reamps/TW32_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/TW32_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW33",
+     "description": "Superposition: Presence x Treble: Presence min AND Treble max",
+     "settings": {
+      "control": "Superposition: Presence x Treble",
+      "value": "Presence min AND Treble max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW33.json",
+     "captures": [
+      {
+       "file": "reamps/TW33_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    },
+    {
+     "take_id": "TW34",
+     "description": "Superposition: the 5-knob candidate: Presence min, Treble max, MiddleLevel 3:00, BassLevel max, Level max",
+     "settings": {
+      "control": "Superposition: the 5-knob candidate",
+      "value": "Presence min, Treble max, MiddleLevel 3:00, BassLevel max, Level max",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Presence 12:00, Treble 12:00, Middle 12:00 @500Hz, Bass 12:00 @40Hz, Drive 9:00, Blend 12:00, Level 12:00"
+     },
+     "path": "data/equipment/joyo-r22-tidal-wave/measurements/TW34.json",
+     "captures": [
+      {
+       "file": "reamps/TW34_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-16",
+       "superseded": false,
+       "reference": "MUFF01"
+      }
+     ]
+    }
+   ],
+   "datasets": [],
+   "envelopes": "data/equipment/joyo-r22-tidal-wave/measurements/envelopes.npz",
+   "models": [
+    {
+     "name": "wiener_hammerstein",
+     "path": "data/equipment/joyo-r22-tidal-wave/models/wiener_hammerstein",
+     "has_validation": true
+    }
+   ]
+  },
+  "joyo-r26-monomyth": {
+   "readme": "data/equipment/joyo-r26-monomyth/README.md",
+   "findings": "data/equipment/joyo-r26-monomyth/findings.md",
+   "n_takes": 39,
+   "takes": [
+    {
+     "take_id": "MYTH01",
+     "description": "(bypass reference): pedal bypassed entirely",
+     "settings": {
+      "control": "(bypass reference)",
+      "value": "pedal bypassed entirely",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH01.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH01_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MUFF01"
+      },
+      {
+       "file": "reamps/MYTH01_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": null
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH02",
+     "description": "(drive stage OFF): pedal engaged, DRIVE SWITCH OFF, EQ flat, Level 11",
+     "settings": {
+      "control": "(drive stage OFF)",
+      "value": "pedal engaged, DRIVE SWITCH OFF, EQ flat, Level 11",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH02.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH02_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH02_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH03",
+     "description": "EQ: Bass shelf: +5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: Bass shelf",
+      "value": "+5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH03.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH03_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH03_ess_ladder_lad30.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "TW01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH04",
+     "description": "EQ: 250Hz: +5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 250Hz",
+      "value": "+5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH04.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH04_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH05",
+     "description": "EQ: 500Hz: +5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 500Hz",
+      "value": "+5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH05.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH05_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH06",
+     "description": "EQ: 1.5kHz: +5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 1.5kHz",
+      "value": "+5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH06.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH06_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH07",
+     "description": "EQ: 3kHz: +5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 3kHz",
+      "value": "+5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH07.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH07_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH08",
+     "description": "EQ: Treble shelf: +5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: Treble shelf",
+      "value": "+5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH08.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH08_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH09",
+     "description": "EQ: 250Hz: -5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 250Hz",
+      "value": "-5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH09.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH09_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH10",
+     "description": "EQ: 1.5kHz: -5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 1.5kHz",
+      "value": "-5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH10.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH10_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH11",
+     "description": "EQ: combination: 250Hz -5 and 1.5kHz -5 together, DRIVE OFF",
+     "settings": {
+      "control": "EQ: combination",
+      "value": "250Hz -5 and 1.5kHz -5 together, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH11.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH11_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH12",
+     "description": "(settled, drive ON): Drive 12, Voice 12, Blend 9, Level 11, EQ flat, Bite/Growl off",
+     "settings": {
+      "control": "(settled, drive ON)",
+      "value": "Drive 12, Voice 12, Blend 9, Level 11, EQ flat, Bite/Growl off",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH12.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH12_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH12_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH12_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH13",
+     "description": "Blend: min (dry)",
+     "settings": {
+      "control": "Blend",
+      "value": "min (dry)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH13.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH13_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH13_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH14",
+     "description": "Blend: 12:00",
+     "settings": {
+      "control": "Blend",
+      "value": "12:00",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH14.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH14_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH14_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH15",
+     "description": "Blend: max (wet)",
+     "settings": {
+      "control": "Blend",
+      "value": "max (wet)",
+      "everything_else": "every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH15.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH15_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH15_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH15_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH16",
+     "description": "Voice: min (circuit A alone), Drive 12:00",
+     "settings": {
+      "control": "Voice",
+      "value": "min (circuit A alone), Drive 12:00",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH16.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH16_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH16_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH18",
+     "description": "Voice: max (circuit B alone), Drive 12:00",
+     "settings": {
+      "control": "Voice",
+      "value": "max (circuit B alone), Drive 12:00",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH18.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH18_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH18_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH19",
+     "description": "Drive sweep, circuit A: Drive 7:00, Voice min",
+     "settings": {
+      "control": "Drive sweep, circuit A",
+      "value": "Drive 7:00, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH19.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH19_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH19_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH20",
+     "description": "Drive sweep, circuit A: Drive 10:00, Voice min",
+     "settings": {
+      "control": "Drive sweep, circuit A",
+      "value": "Drive 10:00, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH20.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH20_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH20_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH21",
+     "description": "Drive sweep, circuit A: Drive 2:00, Voice min",
+     "settings": {
+      "control": "Drive sweep, circuit A",
+      "value": "Drive 2:00, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH21.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH21_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH21_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH22",
+     "description": "Drive sweep, circuit A: Drive max, Voice min",
+     "settings": {
+      "control": "Drive sweep, circuit A",
+      "value": "Drive max, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH22.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH22_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH22_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH22_music_lad.wav",
+       "probe": "music",
+       "recorded": "2026-09-20",
+       "superseded": false,
+       "reference": "BC15"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH23",
+     "description": "Drive sweep, circuit B: Drive 7:00, Voice max",
+     "settings": {
+      "control": "Drive sweep, circuit B",
+      "value": "Drive 7:00, Voice max",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH23.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH23_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH23_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH24",
+     "description": "Drive sweep, circuit B: Drive 10:00, Voice max",
+     "settings": {
+      "control": "Drive sweep, circuit B",
+      "value": "Drive 10:00, Voice max",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH24.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH24_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH24_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH25",
+     "description": "Drive sweep, circuit B: Drive 2:00, Voice max",
+     "settings": {
+      "control": "Drive sweep, circuit B",
+      "value": "Drive 2:00, Voice max",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH25.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH25_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH25_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH26",
+     "description": "Drive sweep, circuit B: Drive max, Voice max",
+     "settings": {
+      "control": "Drive sweep, circuit B",
+      "value": "Drive max, Voice max",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH26.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH26_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH26_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH27",
+     "description": "Pre-drive switches: Bite on, Drive 12:00 (settled), Voice 12:00",
+     "settings": {
+      "control": "Pre-drive switches",
+      "value": "Bite on, Drive 12:00 (settled), Voice 12:00",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH27.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH27_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH27_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH28",
+     "description": "Pre-drive switches: Growl on, Drive 12:00 (settled), Voice 12:00",
+     "settings": {
+      "control": "Pre-drive switches",
+      "value": "Growl on, Drive 12:00 (settled), Voice 12:00",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH28.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH28_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH28_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH29",
+     "description": "Pre-drive switches: Bite + Growl on, Drive 12:00 (settled), Voice 12:00",
+     "settings": {
+      "control": "Pre-drive switches",
+      "value": "Bite + Growl on, Drive 12:00 (settled), Voice 12:00",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH29.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH29_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH29_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH30",
+     "description": "Pre-drive switches: Bite on, Drive max, Voice min",
+     "settings": {
+      "control": "Pre-drive switches",
+      "value": "Bite on, Drive max, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH30.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH30_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH30_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH31",
+     "description": "Pre-drive switches: Growl on, Drive max, Voice min",
+     "settings": {
+      "control": "Pre-drive switches",
+      "value": "Growl on, Drive max, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH31.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH31_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH31_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH32",
+     "description": "Pre-drive switches: Bite + Growl on, Drive max, Voice min",
+     "settings": {
+      "control": "Pre-drive switches",
+      "value": "Bite + Growl on, Drive max, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH32.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH32_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH32_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH35",
+     "description": "EQ: Bass shelf: -5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: Bass shelf",
+      "value": "-5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH35.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH35_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH36",
+     "description": "EQ: 500Hz: -5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 500Hz",
+      "value": "-5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH36.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH36_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH37",
+     "description": "EQ: 3kHz: -5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: 3kHz",
+      "value": "-5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH37.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH37_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH38",
+     "description": "EQ: Treble shelf: -5, all other sliders flat, DRIVE OFF",
+     "settings": {
+      "control": "EQ: Treble shelf",
+      "value": "-5, all other sliders flat, DRIVE OFF",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH38.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH38_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH39",
+     "description": "Pre-drive switch, DRIVE MIN: Hi Boost (Bite) ON, Drive min, Voice min",
+     "settings": {
+      "control": "Pre-drive switch, DRIVE MIN",
+      "value": "Hi Boost (Bite) ON, Drive min, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH39.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH39_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH39_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH40",
+     "description": "Pre-drive switch, DRIVE MIN: Gain Boost (Growl) ON, Drive min, Voice min",
+     "settings": {
+      "control": "Pre-drive switch, DRIVE MIN",
+      "value": "Gain Boost (Growl) ON, Drive min, Voice min",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH40.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH40_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH40_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH41",
+     "description": "Pre-drive switch, DRIVE OFF: Hi Boost (Bite) ON, DRIVE STAGE OFF, EQ flat",
+     "settings": {
+      "control": "Pre-drive switch, DRIVE OFF",
+      "value": "Hi Boost (Bite) ON, DRIVE STAGE OFF, EQ flat",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH41.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH41_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH41_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    },
+    {
+     "take_id": "MYTH42",
+     "description": "Pre-drive switch, DRIVE OFF: Gain Boost (Growl) ON, DRIVE STAGE OFF, EQ flat",
+     "settings": {
+      "control": "Pre-drive switch, DRIVE OFF",
+      "value": "Gain Boost (Growl) ON, DRIVE STAGE OFF, EQ flat",
+      "everything_else": "Blend at MAX (fully wet) -- NOT the settled 9:00; see the block comment. Every other control on this pedal at its settled value; every other pedal bypassed",
+      "settled_values": "Drive 12:00, Voice 12:00, Blend 9:00, Level 11:00, EQ sliders flat, Bite and Growl off, drive stage on"
+     },
+     "path": "data/equipment/joyo-r26-monomyth/measurements/MYTH42.json",
+     "captures": [
+      {
+       "file": "reamps/MYTH42_ess_ladder_lad.wav",
+       "probe": "ess_ladder",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      },
+      {
+       "file": "reamps/MYTH42_levels_lad.wav",
+       "probe": "levels",
+       "recorded": "2026-09-17",
+       "superseded": false,
+       "reference": "MYTH01"
+      }
+     ]
+    }
+   ],
+   "datasets": [],
+   "envelopes": "data/equipment/joyo-r26-monomyth/measurements/envelopes.npz",
+   "models": [
+    {
+     "name": "asymmetric_clipper",
+     "path": "data/equipment/joyo-r26-monomyth/models/asymmetric_clipper",
+     "has_validation": false
+    }
+   ]
+  }
+ },
+ "interface": [
+  {
+   "take_id": "LOOP-LEVELS",
+   "description": "110Hz level steps through the whole loop, every pedal bypassed: the loop's own distortion against return level",
+   "path": "interface/measurements/LOOP-LEVELS.json"
+  },
+  {
+   "take_id": "LOOP-NOISE",
+   "description": "silence.wav through the whole loop, every pedal bypassed",
+   "path": "interface/measurements/LOOP-NOISE.json"
+  },
+  {
+   "take_id": "LOOP-NULL",
+   "description": "ess.wav through the whole re-amp loop, every pedal bypassed, against the digital probe",
+   "path": "interface/measurements/LOOP-NULL.json"
+  },
+  {
+   "take_id": "YSPLIT-Y01",
+   "description": "NO Y-adapter: bass cable straight into the pedalboard",
+   "path": "interface/measurements/YSPLIT-Y01.json"
+  },
+  {
+   "take_id": "YSPLIT-Y02",
+   "description": "Y fitted at the PEDALBOARD end, second leg OPEN (unterminated)",
+   "path": "interface/measurements/YSPLIT-Y02.json"
+  },
+  {
+   "take_id": "YSPLIT-Y03",
+   "description": "Y fitted, second leg into M3 -- the real configuration as wired",
+   "path": "interface/measurements/YSPLIT-Y03.json"
+  },
+  {
+   "take_id": "YSPLIT-Y05",
+   "description": "REPEAT of Y02 with NOTHING touched -- the method's own noise floor",
+   "path": "interface/measurements/YSPLIT-Y05.json"
+  },
+  {
+   "take_id": "YSPLIT-Y06",
+   "description": "Y03 again with M3's -20dB PAD engaged -- nothing else touched",
+   "path": "interface/measurements/YSPLIT-Y06.json"
+  },
+  {
+   "take_id": "YSPLIT-Y07",
+   "description": "Y leg moved to M1 with its INSTRUMENT/Hi-Z button engaged, gain +30",
+   "path": "interface/measurements/YSPLIT-Y07.json"
+  }
+ ]
+}

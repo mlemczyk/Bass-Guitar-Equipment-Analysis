@@ -1,0 +1,36 @@
+{
+ "schema": "rig-equipment/model-params@1",
+ "equipment": "joyo-r26-monomyth",
+ "model": "asymmetric_clipper",
+ "status": "parameters preserved from the source project fit; NOT re-implemented or re-validated in this repository",
+ "form": "out = (1-b)*dry + b*H2(f(H1(x))); f(u) = G*u/(1+|G*u/L|^p)^(1/p) + m*u with L = Lp for u>=0 and Ln for u<0; H1 = first-order highpass fh_hz x first-order lowpass fl_hz (magnitude); H2 = quiet-rung response of MYTH15 over MYTH13 (Blend max over Blend min), relative to its value at 110Hz",
+ "input_scale": "linear amplitude at the capture of the dry path (the Blend-min / MYTH13 return), where a -23dBFS-peak probe returns at about -14dBFS",
+ "params": {
+  "G": 4.701972282869776,
+  "Lp": 0.015429087482123547,
+  "Ln": 0.021170986474371874,
+  "p": 8.516333111002742,
+  "m": 0.01990020053929838,
+  "fh_hz": 288.3748483850017,
+  "fl_hz": 1848.820889056703
+ },
+ "derived": {
+  "ceiling_pos_dbfs": -36.233195170502846,
+  "ceiling_neg_dbfs": -33.485178106125844,
+  "asymmetry_db": -2.7480170643769974,
+  "pre_gain_db": 13.445601294450512,
+  "leak_db": -34.02285094148239
+ },
+ "blend_b_playing_level": 0.225,
+ "blend_b_ladder_fit_9_00": 0.12,
+ "fitted": "2026-09-20, source project monomyth_model.py: 110Hz level-steps harmonics (noise-gated below -60dB) plus the ess_ladder level dependence of MYTH15 vs MYTH13; settled Drive 12:00, Voice 12:00",
+ "source_validation": {
+  "probe_harmonics_rms_db": 2.45,
+  "music_rms_db": {
+   "MYTH12 settled (in-sample)": 2.2,
+   "MYTH22 Drive max, Voice min": 2.18,
+   "MYTH15 Blend max": 2.38
+  },
+  "music_metric": "RMS over six spectral band levels plus a per-note THD ratio, played-performance re-amp, model vs capture"
+ }
+}

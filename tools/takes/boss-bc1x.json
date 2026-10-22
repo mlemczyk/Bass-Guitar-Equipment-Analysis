@@ -1,0 +1,115 @@
+{
+ "equipment": "boss-bc1x",
+ "name": "Boss BC-1X",
+ "prefix": "BC",
+ "bypass_take": "BC15",
+ "settled_take": "BC01",
+ "settled": "Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00",
+ "takes": [
+  {
+   "take_id": "BC01",
+   "control": "(reference)",
+   "value": "settled: Threshold 12:00, Ratio 12:00, Release 12:00, Level 11:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC02",
+   "control": "Threshold",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC03",
+   "control": "Threshold",
+   "value": "9:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC04",
+   "control": "Threshold",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC05",
+   "control": "Threshold",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC06",
+   "control": "Ratio",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC07",
+   "control": "Ratio",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC08",
+   "control": "Ratio",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC09",
+   "control": "Release",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC10",
+   "control": "Release",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC11",
+   "control": "Release",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  },
+  {
+   "take_id": "BC12",
+   "control": "Level",
+   "value": "min",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "BC13",
+   "control": "Level",
+   "value": "3:00",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "BC14",
+   "control": "Level",
+   "value": "max",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "pending"
+  },
+  {
+   "take_id": "BC15",
+   "control": "(bypass reference)",
+   "value": "pedal bypassed entirely",
+   "held_fixed": "every other control on this pedal at its settled value; every other pedal bypassed",
+   "status": "recorded"
+  }
+ ]
+}

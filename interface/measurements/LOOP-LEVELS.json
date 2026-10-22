@@ -1,0 +1,114 @@
+{
+ "schema": "rig-equipment/loop@1",
+ "take_id": "LOOP-LEVELS",
+ "capture": {
+  "file": "reamps/MYTH01_levels_lad.wav",
+  "sha256": "e22b05f6f0870c5984900bb91fdc9098ba0efa28cc8d791aabea1c95a1a6de15",
+  "sample_rate": 44100,
+  "probe": "levels",
+  "tag": null,
+  "recorded": "2026-09-17",
+  "duration_s": 18.49,
+  "send_peak_dbfs": -23.0
+ },
+ "steps": [
+  {
+   "step": 0,
+   "file_level_dbfs": -52.0,
+   "fundamental_dbfs_peak": -50.56,
+   "harmonics_db_rel_fundamental": {
+    "h2": -86.3,
+    "h3": -84.3,
+    "h4": -85.2,
+    "h5": -80.5
+   },
+   "thd_pct_h2_h5": 0.013
+  },
+  {
+   "step": 1,
+   "file_level_dbfs": -46.0,
+   "fundamental_dbfs_peak": -44.56,
+   "harmonics_db_rel_fundamental": {
+    "h2": -81.0,
+    "h3": -94.4,
+    "h4": -86.6,
+    "h5": -81.8
+   },
+   "thd_pct_h2_h5": 0.013
+  },
+  {
+   "step": 2,
+   "file_level_dbfs": -40.0,
+   "fundamental_dbfs_peak": -38.56,
+   "harmonics_db_rel_fundamental": {
+    "h2": -82.8,
+    "h3": -100.4,
+    "h4": -101.0,
+    "h5": -102.0
+   },
+   "thd_pct_h2_h5": 0.007
+  },
+  {
+   "step": 3,
+   "file_level_dbfs": -34.0,
+   "fundamental_dbfs_peak": -32.56,
+   "harmonics_db_rel_fundamental": {
+    "h2": -75.9,
+    "h3": -87.3,
+    "h4": -99.0,
+    "h5": -98.7
+   },
+   "thd_pct_h2_h5": 0.017
+  },
+  {
+   "step": 4,
+   "file_level_dbfs": -28.0,
+   "fundamental_dbfs_peak": -26.57,
+   "harmonics_db_rel_fundamental": {
+    "h2": -68.6,
+    "h3": -74.6,
+    "h4": -90.9,
+    "h5": -96.5
+   },
+   "thd_pct_h2_h5": 0.042
+  },
+  {
+   "step": 5,
+   "file_level_dbfs": -22.0,
+   "fundamental_dbfs_peak": -20.59,
+   "harmonics_db_rel_fundamental": {
+    "h2": -55.2,
+    "h3": -58.9,
+    "h4": -67.6,
+    "h5": -73.0
+   },
+   "thd_pct_h2_h5": 0.214
+  },
+  {
+   "step": 6,
+   "file_level_dbfs": -18.0,
+   "fundamental_dbfs_peak": -16.65,
+   "harmonics_db_rel_fundamental": {
+    "h2": -45.9,
+    "h3": -46.8,
+    "h4": -54.0,
+    "h5": -58.8
+   },
+   "thd_pct_h2_h5": 0.719
+  },
+  {
+   "step": 7,
+   "file_level_dbfs": -15.0,
+   "fundamental_dbfs_peak": -14.06,
+   "harmonics_db_rel_fundamental": {
+    "h2": -28.1,
+    "h3": -29.8,
+    "h4": -34.5,
+    "h5": -40.0
+   },
+   "thd_pct_h2_h5": 5.522
+  }
+ ],
+ "source_take_id": "MYTH01 (levels probe, every pedal bypassed)",
+ "description": "110Hz level steps through the whole loop, every pedal bypassed: the loop's own distortion against return level"
+}

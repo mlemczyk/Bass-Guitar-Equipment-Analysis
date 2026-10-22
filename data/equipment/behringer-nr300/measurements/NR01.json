@@ -1,0 +1,134 @@
+{
+ "schema": "rig-equipment/take@1",
+ "equipment": "behringer-nr300",
+ "take_id": "NR01",
+ "description": "noise reduction OFF, gate held open: the reference",
+ "settings": {
+  "noise_reduction": "off",
+  "threshold": null,
+  "decay": null
+ },
+ "captures": [
+  {
+   "capture": {
+    "file": "reamps/NR01_music.wav",
+    "sha256": "15a69932a70d621674a65db9a397222ee8e373fa8e1278bd0124f76c962d353f",
+    "sample_rate": 44100,
+    "probe": "music",
+    "tag": null,
+    "recorded": "2026-09-15",
+    "duration_s": 218.24,
+    "contaminated": null
+   },
+   "reference": {
+    "take_id": "NR01",
+    "file": "reamps/NR01_music.wav",
+    "sha256": "15a69932a70d621674a65db9a397222ee8e373fa8e1278bd0124f76c962d353f"
+   },
+   "alignment": {
+    "lag_samples": 0,
+    "polarity_vs_reference": "same"
+   },
+   "peak_dbfs": {
+    "positive": -14.01,
+    "negative": -15.89
+   },
+   "frame_percentiles": {
+    "frame_ms": 5.0,
+    "reference_dbfs": {
+     "p1": -98.26,
+     "p10": -94.1,
+     "p25": -87.17,
+     "p50": -43.67,
+     "p75": -36.32,
+     "p95": -25.46
+    },
+    "change_db": {
+     "p1": 0.0,
+     "p10": 0.0,
+     "p25": 0.0,
+     "p50": 0.0,
+     "p75": 0.0,
+     "p95": 0.0
+    }
+   },
+   "frame_gain_db_by_class": {
+    "music": {
+     "frames": 27138,
+     "median": 0.0,
+     "p10": 0.0
+    },
+    "transition": {
+     "frames": 4474,
+     "median": 0.0,
+     "p10": 0.0
+    },
+    "rest": {
+     "frames": 12135,
+     "median": 0.0,
+     "p10": 0.0
+    }
+   },
+   "musical_frames_band_gain": null
+  },
+  {
+   "capture": {
+    "file": "reamps/NR01_levels.wav",
+    "sha256": "66fdb33e1964fe942d57b6be2592cff319874460da778e9929a3043e55edd0ca",
+    "sample_rate": 44100,
+    "probe": "levels",
+    "tag": null,
+    "recorded": "2026-09-15",
+    "duration_s": 18.5,
+    "contaminated": null
+   },
+   "reference": {
+    "take_id": "NR01",
+    "file": "reamps/NR01_levels.wav",
+    "sha256": "66fdb33e1964fe942d57b6be2592cff319874460da778e9929a3043e55edd0ca"
+   },
+   "alignment": {
+    "lag_samples": 0,
+    "polarity_vs_reference": "same"
+   },
+   "peak_dbfs": {
+    "positive": -14.2,
+    "negative": -12.97
+   },
+   "steps": [
+    {
+     "input_frame_rms_dbfs": -53.42,
+     "gain_db": 0.0
+    },
+    {
+     "input_frame_rms_dbfs": -47.41,
+     "gain_db": 0.0
+    },
+    {
+     "input_frame_rms_dbfs": -41.4,
+     "gain_db": 0.0
+    },
+    {
+     "input_frame_rms_dbfs": -35.41,
+     "gain_db": 0.0
+    },
+    {
+     "input_frame_rms_dbfs": -29.41,
+     "gain_db": 0.0
+    },
+    {
+     "input_frame_rms_dbfs": -23.45,
+     "gain_db": 0.0
+    },
+    {
+     "input_frame_rms_dbfs": -19.51,
+     "gain_db": 0.0
+    },
+    {
+     "input_frame_rms_dbfs": -16.76,
+     "gain_db": 0.0
+    }
+   ]
+  }
+ ]
+}
