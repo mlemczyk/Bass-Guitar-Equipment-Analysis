@@ -135,7 +135,7 @@ Each one cost real work in the source project. All of them looked fine.
    "balanced even/odd" (+0.9dB) at the top rung and −47dB at the quiet ones.
    The capture path was adding even harmonics.
 
-## 8. Stages upstream of the jack (instrument, not yet in this repo)
+## 8. Stages upstream of the jack (instrument)
 
 The EMG preamp and pickup pan sit before the output jack, so they cannot be
 re-amped. The source project measured the preamp with a headphone transducer
@@ -144,4 +144,5 @@ magnetically. The measurement is ratiometric (take divided by an EMG-flat
 reference), so the transducer, its coupling, the pickup resonance and the
 flux tilt all cancel. Pickup pan cannot be measured that way, because a
 damped string has no position-dependent comb. It comes from played takes.
-These will arrive with `data/equipment/emg-bqc/`.
+The preamp curves are in `data/equipment/emg-bqc/`, and the string-decay
+data in `data/equipment/instrument-trbx305/`.

@@ -18,7 +18,7 @@ all of them.
   a null at 34mm: ~780Hz/1.6kHz on B0, ~2.5/5.0kHz on G2.
 - **Preamp:** EMG BQC HZ (Bass, Mid, MidFreq, Treble, pickup pan; treble DIP
   switches left OFF/OFF), 18V from two 9V LiPo batteries in series.
-  Measured curves will be in `data/equipment/emg-bqc/` (not yet published).
+  Measured curves are in `data/equipment/emg-bqc/`.
 - **Playing:** fingerstyle, fingertips, short nails, plucked over the neck
   pickup ~138mm from the saddle. That holds for every played take before
   the pluck block (R33–R40). The pluck position's comb filter is in every

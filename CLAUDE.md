@@ -1,8 +1,9 @@
 # Bass rig equipment data: a guide for AI agents
 
 Measurements, fitted models and findings for the bass-guitar equipment of one
-real rig: a Yamaha TRBX305 with an EMG preamp, seven pedals, and an Allen & Heath
-ZEDi-10 interface. Use it as a **benchmark**. If you own the same pedal,
+real rig: a Yamaha TRBX305 with an EMG preamp, a pedalboard of eight units
+(six of them measured here; the tuner and volume pedal are not), and an Allen &
+Heath ZEDi-10 interface. Use it as a **benchmark**. If you own the same pedal,
 compare your measurements against these. If you are modelling one, start from
 these parameters, and check your model against the per-take curves.
 
@@ -33,8 +34,6 @@ Released into the public domain (the Unlicense, `LICENSE`). No attribution is re
 
 ### Equipment status
 
-| folder | equipment | status |
-|---|---|---|
 | folder | takes | model | model status |
 |---|---|---|---|
 | `donner-eq-seeker` | 28 | `graphic_eq`: 10 band sections + fitted slider law | fitted here, cross-validated |
