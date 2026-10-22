@@ -25,7 +25,7 @@ Released into the public domain (the Unlicense, `LICENSE`). No attribution is re
 | path | what |
 |---|---|
 | `data/equipment/<pedal>/measurements/` | one JSON per take: the setting, and its frequency response, linearity, harmonics and noise |
-| `data/equipment/<pedal>/models/<name>/` | `model.py` (numpy/scipy only), `params.json`, `fit.py` (refits from `measurements/`), `validation.json` |
+| `data/equipment/<pedal>/models/<name>/` | `model.py` (numpy/scipy, plus numba for the Big Muff circuit; see `requirements.txt`), `params.json`, `fit.py` (refits from `measurements/`), `validation.json` |
 | `data/equipment/<pedal>/findings.md` | what the measurements show, citing take IDs |
 | `interface/` | the re-amp loop itself: round trip, noise floor, where it distorts, session drift |
 | `stimuli/` | the probe WAVs and `generate.py`, which rebuilds them to within 1 LSB |
